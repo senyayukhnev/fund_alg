@@ -7,30 +7,50 @@ int GetEps(int argc, char** argv, double* eps) {
     if (argc != 2) {
         return 1;
     }
-    int dot_ind = 0;
+    int f = 0;
+    int after_dot = 0;
     for (int i = 0; argv[1][i]; i++) {
         if (argv[1][i] == ',') {
             return 1;
         }
 
         if (argv[1][i] == '.') {
-            dot_ind = i;
-            break;
+            f = 1;
+            continue;
         }
-        *eps *= 10;
-        *eps += (argv[1][i] - '0');
+        if ('9' >= argv[1][i] && argv[1][i] >= '0') {
+            *eps *= 10;
+            *eps += (argv[1][i] - '0');
+            if (f) {
+                after_dot += 1;
 
+            }
+        } else {
+            return 1;
+        }
     }
-    for (int i = dot_ind + 1; argv[1][i]; i++) {
-        *eps += ((argv[1][i] - '0') / pow(10, i - dot_ind));
-    }
+    *eps = *eps / pow(10, after_dot);
     if (*eps <= 0.0) {
         return 1;
     }
+
     double me = 1;
     while (1 + me * 0.5 > 1) me *= 0.5;
     if (me > *eps) return 1;
     if (*eps <= 0.00000001) return 101;
+
+//        if ('9' >= argv[1][i] && argv[1][i] >= '0') {
+//            *eps *= 10;
+//            *eps += (argv[1][i] - '0');
+//
+//        }
+//        if (f) {
+//            for (int i = dot_ind + 1; argv[1][i]; i++) {
+//                *eps += ((argv[1][i] - '0') / pow(10, i - dot_ind));
+//            }
+//        }
+//    }
+
     return 0;
 }
 
