@@ -24,7 +24,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -48,7 +49,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -66,6 +68,13 @@
 					"id" : "laba1.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-laba1.c-Debug-709a916712ae98be1253.json",
 					"name" : "laba1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laba10::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba10-Debug-1df19a96ab8f8952ab6a.json",
+					"name" : "laba10",
 					"projectIndex" : 0
 				},
 				{
