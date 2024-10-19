@@ -1,0 +1,3 @@
+String 1 contains 0 no english, no arabica number, no gap symbols
+String 2 contains 0 no english, no arabica number, no gap symbols
+String 3 contains 5 no english, no arabica number, no gap symbols

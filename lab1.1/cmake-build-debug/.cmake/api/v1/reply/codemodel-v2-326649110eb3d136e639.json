@@ -21,7 +21,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -42,7 +43,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -79,7 +81,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "laba4::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-laba4-Debug-948107a275f9ced0a7d9.json",
+					"jsonFile" : "target-laba4-Debug-c815b7614359f24eb579.json",
 					"name" : "laba4",
 					"projectIndex" : 0
 				},
@@ -95,6 +97,13 @@
 					"id" : "laba6.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-laba6.c-Debug-905b0c0332de26f3c2d4.json",
 					"name" : "laba6.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laba7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba7-Debug-64865ea7db57aae1f561.json",
+					"name" : "laba7",
 					"projectIndex" : 0
 				}
 			]
