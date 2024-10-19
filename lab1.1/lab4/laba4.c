@@ -15,7 +15,7 @@ typedef enum kOpts {
 typedef enum Errors {
     Incorrect_input = 2,
     Equal_dest,
-    Unable_to_open_file
+
 } Errors;
 
 void hex(int x, char* result, int size);

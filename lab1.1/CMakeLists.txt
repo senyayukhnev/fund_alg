@@ -15,3 +15,4 @@ add_executable(laba4 lab4/laba4.c)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_POSIX_C_SOURCE=200809L")
 
 add_executable(laba7 lab7/laba7.c)
+add_executable(laba8 lab8/laba8.c)
