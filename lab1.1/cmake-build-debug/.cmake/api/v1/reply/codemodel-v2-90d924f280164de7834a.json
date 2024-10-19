@@ -23,7 +23,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -113,6 +115,13 @@
 					"id" : "laba8::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-laba8-Debug-a7a9968a949807fdbab9.json",
 					"name" : "laba8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laba9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba9-Debug-193ec024a4075b5f848f.json",
+					"name" : "laba9",
 					"projectIndex" : 0
 				}
 			]
