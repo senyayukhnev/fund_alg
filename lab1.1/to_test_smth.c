@@ -62,6 +62,8 @@ int HandlerOptT(double* arg) {
 }
 
 int main(int argc, char** argv) {
+    double a;
+    printf("%lf \n", (a + 1)* 5);
     double arg[5] = {1, 1, 1};
     printf("%d", HandlerOptT(arg));
 }
