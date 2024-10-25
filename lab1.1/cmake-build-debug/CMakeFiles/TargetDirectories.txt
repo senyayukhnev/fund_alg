@@ -9,5 +9,7 @@ C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba7.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba8.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba9.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba10.dir
+C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba2_7.dir
+C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba2_2.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

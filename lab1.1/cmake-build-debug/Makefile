@@ -207,6 +207,143 @@ laba4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/build
 .PHONY : laba4/fast
 
+#=============================================================================
+# Target rules for targets named laba7
+
+# Build rule for target.
+laba7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba7
+.PHONY : laba7
+
+# fast build rule for target.
+laba7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/build
+.PHONY : laba7/fast
+
+#=============================================================================
+# Target rules for targets named laba8
+
+# Build rule for target.
+laba8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba8
+.PHONY : laba8
+
+# fast build rule for target.
+laba8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/build
+.PHONY : laba8/fast
+
+#=============================================================================
+# Target rules for targets named laba9
+
+# Build rule for target.
+laba9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba9
+.PHONY : laba9
+
+# fast build rule for target.
+laba9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/build
+.PHONY : laba9/fast
+
+#=============================================================================
+# Target rules for targets named laba10
+
+# Build rule for target.
+laba10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba10
+.PHONY : laba10
+
+# fast build rule for target.
+laba10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/build
+.PHONY : laba10/fast
+
+#=============================================================================
+# Target rules for targets named laba2_7
+
+# Build rule for target.
+laba2_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba2_7
+.PHONY : laba2_7
+
+# fast build rule for target.
+laba2_7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/build
+.PHONY : laba2_7/fast
+
+lab4/laba4.o: lab4/laba4.c.o
+.PHONY : lab4/laba4.o
+
+# target to build an object file
+lab4/laba4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/lab4/laba4.c.o
+.PHONY : lab4/laba4.c.o
+
+lab4/laba4.i: lab4/laba4.c.i
+.PHONY : lab4/laba4.i
+
+# target to preprocess a source file
+lab4/laba4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/lab4/laba4.c.i
+.PHONY : lab4/laba4.c.i
+
+lab4/laba4.s: lab4/laba4.c.s
+.PHONY : lab4/laba4.s
+
+# target to generate assembly for a file
+lab4/laba4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/lab4/laba4.c.s
+.PHONY : lab4/laba4.c.s
+
+lab7/laba7.o: lab7/laba7.c.o
+.PHONY : lab7/laba7.o
+
+# target to build an object file
+lab7/laba7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/lab7/laba7.c.o
+.PHONY : lab7/laba7.c.o
+
+lab7/laba7.i: lab7/laba7.c.i
+.PHONY : lab7/laba7.i
+
+# target to preprocess a source file
+lab7/laba7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/lab7/laba7.c.i
+.PHONY : lab7/laba7.c.i
+
+lab7/laba7.s: lab7/laba7.c.s
+.PHONY : lab7/laba7.s
+
+# target to generate assembly for a file
+lab7/laba7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/lab7/laba7.c.s
+.PHONY : lab7/laba7.c.s
+
+lab8/laba8.o: lab8/laba8.c.o
+.PHONY : lab8/laba8.o
+
+# target to build an object file
+lab8/laba8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/lab8/laba8.c.o
+.PHONY : lab8/laba8.c.o
+
+lab8/laba8.i: lab8/laba8.c.i
+.PHONY : lab8/laba8.i
+
+# target to preprocess a source file
+lab8/laba8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/lab8/laba8.c.i
+.PHONY : lab8/laba8.c.i
+
+lab8/laba8.s: lab8/laba8.c.s
+.PHONY : lab8/laba8.s
+
+# target to generate assembly for a file
+lab8/laba8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/lab8/laba8.c.s
+.PHONY : lab8/laba8.c.s
+
 laba1.o: laba1.c.o
 .PHONY : laba1.o
 
@@ -230,6 +367,30 @@ laba1.s: laba1.c.s
 laba1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/laba1.c.s
 .PHONY : laba1.c.s
+
+laba10.o: laba10.c.o
+.PHONY : laba10.o
+
+# target to build an object file
+laba10.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/laba10.c.o
+.PHONY : laba10.c.o
+
+laba10.i: laba10.c.i
+.PHONY : laba10.i
+
+# target to preprocess a source file
+laba10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/laba10.c.i
+.PHONY : laba10.c.i
+
+laba10.s: laba10.c.s
+.PHONY : laba10.s
+
+# target to generate assembly for a file
+laba10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/laba10.c.s
+.PHONY : laba10.c.s
 
 laba2.o: laba2.c.o
 .PHONY : laba2.o
@@ -255,6 +416,30 @@ laba2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/laba2.c.s
 .PHONY : laba2.c.s
 
+laba2_7.o: laba2_7.c.o
+.PHONY : laba2_7.o
+
+# target to build an object file
+laba2_7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/laba2_7.c.o
+.PHONY : laba2_7.c.o
+
+laba2_7.i: laba2_7.c.i
+.PHONY : laba2_7.i
+
+# target to preprocess a source file
+laba2_7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/laba2_7.c.i
+.PHONY : laba2_7.c.i
+
+laba2_7.s: laba2_7.c.s
+.PHONY : laba2_7.s
+
+# target to generate assembly for a file
+laba2_7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/laba2_7.c.s
+.PHONY : laba2_7.c.s
+
 laba3.o: laba3.c.o
 .PHONY : laba3.o
 
@@ -278,30 +463,6 @@ laba3.s: laba3.c.s
 laba3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/laba3.c.s
 .PHONY : laba3.c.s
-
-laba4.o: laba4.c.o
-.PHONY : laba4.o
-
-# target to build an object file
-laba4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/laba4.c.o
-.PHONY : laba4.c.o
-
-laba4.i: laba4.c.i
-.PHONY : laba4.i
-
-# target to preprocess a source file
-laba4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/laba4.c.i
-.PHONY : laba4.c.i
-
-laba4.s: laba4.c.s
-.PHONY : laba4.s
-
-# target to generate assembly for a file
-laba4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/laba4.c.s
-.PHONY : laba4.c.s
 
 laba5.o: laba5.c.o
 .PHONY : laba5.o
@@ -375,6 +536,30 @@ laba6_2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/laba6_2.c.s
 .PHONY : laba6_2.c.s
 
+laba9.o: laba9.c.o
+.PHONY : laba9.o
+
+# target to build an object file
+laba9.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/laba9.c.o
+.PHONY : laba9.c.o
+
+laba9.i: laba9.c.i
+.PHONY : laba9.i
+
+# target to preprocess a source file
+laba9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/laba9.c.i
+.PHONY : laba9.c.i
+
+laba9.s: laba9.c.s
+.PHONY : laba9.s
+
+# target to generate assembly for a file
+laba9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/laba9.c.s
+.PHONY : laba9.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -385,23 +570,40 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... another6"
 	@echo "... laba1.c"
+	@echo "... laba10"
 	@echo "... laba2"
+	@echo "... laba2_7"
 	@echo "... laba3.c"
 	@echo "... laba4"
 	@echo "... laba5.c"
 	@echo "... laba6.c"
+	@echo "... laba7"
+	@echo "... laba8"
+	@echo "... laba9"
+	@echo "... lab4/laba4.o"
+	@echo "... lab4/laba4.i"
+	@echo "... lab4/laba4.s"
+	@echo "... lab7/laba7.o"
+	@echo "... lab7/laba7.i"
+	@echo "... lab7/laba7.s"
+	@echo "... lab8/laba8.o"
+	@echo "... lab8/laba8.i"
+	@echo "... lab8/laba8.s"
 	@echo "... laba1.o"
 	@echo "... laba1.i"
 	@echo "... laba1.s"
+	@echo "... laba10.o"
+	@echo "... laba10.i"
+	@echo "... laba10.s"
 	@echo "... laba2.o"
 	@echo "... laba2.i"
 	@echo "... laba2.s"
+	@echo "... laba2_7.o"
+	@echo "... laba2_7.i"
+	@echo "... laba2_7.s"
 	@echo "... laba3.o"
 	@echo "... laba3.i"
 	@echo "... laba3.s"
-	@echo "... laba4.o"
-	@echo "... laba4.i"
-	@echo "... laba4.s"
 	@echo "... laba5.o"
 	@echo "... laba5.i"
 	@echo "... laba5.s"
@@ -411,6 +613,9 @@ help:
 	@echo "... laba6_2.o"
 	@echo "... laba6_2.i"
 	@echo "... laba6_2.s"
+	@echo "... laba9.o"
+	@echo "... laba9.i"
+	@echo "... laba9.s"
 .PHONY : help
 
 

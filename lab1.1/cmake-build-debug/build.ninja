@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/
 
 build cmake_object_order_depends_target_laba1.c: phony || .
 
-build CMakeFiles/laba1.c.dir/laba1.c.obj: C_COMPILER__laba1.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba1.c || cmake_object_order_depends_target_laba1.c
-  DEP_FILE = CMakeFiles\laba1.c.dir\laba1.c.obj.d
+build CMakeFiles/laba1.c.dir/Lab1/laba1.c.obj: C_COMPILER__laba1.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba1.c || cmake_object_order_depends_target_laba1.c
+  DEP_FILE = CMakeFiles\laba1.c.dir\Lab1\laba1.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba1.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba1.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba1.c.dir\Lab1
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/laba1.c.dir/laba1.c.obj: C_COMPILER__laba1.2ec_unscanned_Debug 
 #############################################
 # Link the executable laba1.c.exe
 
-build laba1.c.exe: C_EXECUTABLE_LINKER__laba1.2ec_Debug CMakeFiles/laba1.c.dir/laba1.c.obj
+build laba1.c.exe: C_EXECUTABLE_LINKER__laba1.2ec_Debug CMakeFiles/laba1.c.dir/Lab1/laba1.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba1.c.dir
@@ -82,11 +82,11 @@ build laba1.c.exe: C_EXECUTABLE_LINKER__laba1.2ec_Debug CMakeFiles/laba1.c.dir/l
 
 build cmake_object_order_depends_target_laba2: phony || .
 
-build CMakeFiles/laba2.dir/laba2.c.obj: C_COMPILER__laba2_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba2.c || cmake_object_order_depends_target_laba2
-  DEP_FILE = CMakeFiles\laba2.dir\laba2.c.obj.d
+build CMakeFiles/laba2.dir/Lab1/laba2.c.obj: C_COMPILER__laba2_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba2.c || cmake_object_order_depends_target_laba2
+  DEP_FILE = CMakeFiles\laba2.dir\Lab1\laba2.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba2.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba2.dir\Lab1
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/laba2.dir/laba2.c.obj: C_COMPILER__laba2_unscanned_Debug C$:/Us
 #############################################
 # Link the executable laba2.exe
 
-build laba2.exe: C_EXECUTABLE_LINKER__laba2_Debug CMakeFiles/laba2.dir/laba2.c.obj
+build laba2.exe: C_EXECUTABLE_LINKER__laba2_Debug CMakeFiles/laba2.dir/Lab1/laba2.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba2.dir
@@ -115,11 +115,11 @@ build laba2.exe: C_EXECUTABLE_LINKER__laba2_Debug CMakeFiles/laba2.dir/laba2.c.o
 
 build cmake_object_order_depends_target_laba6.c: phony || .
 
-build CMakeFiles/laba6.c.dir/laba6.c.obj: C_COMPILER__laba6.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba6.c || cmake_object_order_depends_target_laba6.c
-  DEP_FILE = CMakeFiles\laba6.c.dir\laba6.c.obj.d
+build CMakeFiles/laba6.c.dir/Lab1/laba6.c.obj: C_COMPILER__laba6.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba6.c || cmake_object_order_depends_target_laba6.c
+  DEP_FILE = CMakeFiles\laba6.c.dir\Lab1\laba6.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba6.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba6.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba6.c.dir\Lab1
 
 
 # =============================================================================
@@ -129,7 +129,7 @@ build CMakeFiles/laba6.c.dir/laba6.c.obj: C_COMPILER__laba6.2ec_unscanned_Debug 
 #############################################
 # Link the executable laba6.c.exe
 
-build laba6.c.exe: C_EXECUTABLE_LINKER__laba6.2ec_Debug CMakeFiles/laba6.c.dir/laba6.c.obj
+build laba6.c.exe: C_EXECUTABLE_LINKER__laba6.2ec_Debug CMakeFiles/laba6.c.dir/Lab1/laba6.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba6.c.dir
@@ -148,11 +148,11 @@ build laba6.c.exe: C_EXECUTABLE_LINKER__laba6.2ec_Debug CMakeFiles/laba6.c.dir/l
 
 build cmake_object_order_depends_target_laba5.c: phony || .
 
-build CMakeFiles/laba5.c.dir/laba5.c.obj: C_COMPILER__laba5.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba5.c || cmake_object_order_depends_target_laba5.c
-  DEP_FILE = CMakeFiles\laba5.c.dir\laba5.c.obj.d
+build CMakeFiles/laba5.c.dir/Lab1/laba5.c.obj: C_COMPILER__laba5.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba5.c || cmake_object_order_depends_target_laba5.c
+  DEP_FILE = CMakeFiles\laba5.c.dir\Lab1\laba5.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba5.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba5.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba5.c.dir\Lab1
 
 
 # =============================================================================
@@ -162,7 +162,7 @@ build CMakeFiles/laba5.c.dir/laba5.c.obj: C_COMPILER__laba5.2ec_unscanned_Debug 
 #############################################
 # Link the executable laba5.c.exe
 
-build laba5.c.exe: C_EXECUTABLE_LINKER__laba5.2ec_Debug CMakeFiles/laba5.c.dir/laba5.c.obj
+build laba5.c.exe: C_EXECUTABLE_LINKER__laba5.2ec_Debug CMakeFiles/laba5.c.dir/Lab1/laba5.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba5.c.dir
@@ -181,11 +181,11 @@ build laba5.c.exe: C_EXECUTABLE_LINKER__laba5.2ec_Debug CMakeFiles/laba5.c.dir/l
 
 build cmake_object_order_depends_target_laba3.c: phony || .
 
-build CMakeFiles/laba3.c.dir/laba3.c.obj: C_COMPILER__laba3.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba3.c || cmake_object_order_depends_target_laba3.c
-  DEP_FILE = CMakeFiles\laba3.c.dir\laba3.c.obj.d
+build CMakeFiles/laba3.c.dir/Lab1/laba3.c.obj: C_COMPILER__laba3.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba3.c || cmake_object_order_depends_target_laba3.c
+  DEP_FILE = CMakeFiles\laba3.c.dir\Lab1\laba3.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba3.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba3.c.dir\Lab1
 
 
 # =============================================================================
@@ -195,7 +195,7 @@ build CMakeFiles/laba3.c.dir/laba3.c.obj: C_COMPILER__laba3.2ec_unscanned_Debug 
 #############################################
 # Link the executable laba3.c.exe
 
-build laba3.c.exe: C_EXECUTABLE_LINKER__laba3.2ec_Debug CMakeFiles/laba3.c.dir/laba3.c.obj
+build laba3.c.exe: C_EXECUTABLE_LINKER__laba3.2ec_Debug CMakeFiles/laba3.c.dir/Lab1/laba3.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba3.c.dir
@@ -214,8 +214,8 @@ build laba3.c.exe: C_EXECUTABLE_LINKER__laba3.2ec_Debug CMakeFiles/laba3.c.dir/l
 
 build cmake_object_order_depends_target_another6: phony || .
 
-build CMakeFiles/another6.dir/laba6_2.c.obj: C_COMPILER__another6_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba6_2.c || cmake_object_order_depends_target_another6
-  DEP_FILE = CMakeFiles\another6.dir\laba6_2.c.obj.d
+build CMakeFiles/another6.dir/to_test_smth.c.obj: C_COMPILER__another6_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/to_test_smth.c || cmake_object_order_depends_target_another6
+  DEP_FILE = CMakeFiles\another6.dir\to_test_smth.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\another6.dir
   OBJECT_FILE_DIR = CMakeFiles\another6.dir
@@ -228,7 +228,7 @@ build CMakeFiles/another6.dir/laba6_2.c.obj: C_COMPILER__another6_unscanned_Debu
 #############################################
 # Link the executable another6.exe
 
-build another6.exe: C_EXECUTABLE_LINKER__another6_Debug CMakeFiles/another6.dir/laba6_2.c.obj
+build another6.exe: C_EXECUTABLE_LINKER__another6_Debug CMakeFiles/another6.dir/to_test_smth.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\another6.dir
@@ -247,11 +247,11 @@ build another6.exe: C_EXECUTABLE_LINKER__another6_Debug CMakeFiles/another6.dir/
 
 build cmake_object_order_depends_target_laba4: phony || .
 
-build CMakeFiles/laba4.dir/lab4/laba4.c.obj: C_COMPILER__laba4_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/lab4/laba4.c || cmake_object_order_depends_target_laba4
-  DEP_FILE = CMakeFiles\laba4.dir\lab4\laba4.c.obj.d
+build CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.obj: C_COMPILER__laba4_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/lab4/laba4.c || cmake_object_order_depends_target_laba4
+  DEP_FILE = CMakeFiles\laba4.dir\Lab1\lab4\laba4.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba4.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba4.dir\lab4
+  OBJECT_FILE_DIR = CMakeFiles\laba4.dir\Lab1\lab4
 
 
 # =============================================================================
@@ -261,7 +261,7 @@ build CMakeFiles/laba4.dir/lab4/laba4.c.obj: C_COMPILER__laba4_unscanned_Debug C
 #############################################
 # Link the executable laba4.exe
 
-build laba4.exe: C_EXECUTABLE_LINKER__laba4_Debug CMakeFiles/laba4.dir/lab4/laba4.c.obj
+build laba4.exe: C_EXECUTABLE_LINKER__laba4_Debug CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba4.dir
@@ -280,11 +280,11 @@ build laba4.exe: C_EXECUTABLE_LINKER__laba4_Debug CMakeFiles/laba4.dir/lab4/laba
 
 build cmake_object_order_depends_target_laba7: phony || .
 
-build CMakeFiles/laba7.dir/lab7/laba7.c.obj: C_COMPILER__laba7_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/lab7/laba7.c || cmake_object_order_depends_target_laba7
-  DEP_FILE = CMakeFiles\laba7.dir\lab7\laba7.c.obj.d
+build CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.obj: C_COMPILER__laba7_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/lab7/laba7.c || cmake_object_order_depends_target_laba7
+  DEP_FILE = CMakeFiles\laba7.dir\Lab1\lab7\laba7.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba7.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba7.dir\lab7
+  OBJECT_FILE_DIR = CMakeFiles\laba7.dir\Lab1\lab7
 
 
 # =============================================================================
@@ -294,7 +294,7 @@ build CMakeFiles/laba7.dir/lab7/laba7.c.obj: C_COMPILER__laba7_unscanned_Debug C
 #############################################
 # Link the executable laba7.exe
 
-build laba7.exe: C_EXECUTABLE_LINKER__laba7_Debug CMakeFiles/laba7.dir/lab7/laba7.c.obj
+build laba7.exe: C_EXECUTABLE_LINKER__laba7_Debug CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba7.dir
@@ -313,11 +313,11 @@ build laba7.exe: C_EXECUTABLE_LINKER__laba7_Debug CMakeFiles/laba7.dir/lab7/laba
 
 build cmake_object_order_depends_target_laba8: phony || .
 
-build CMakeFiles/laba8.dir/lab8/laba8.c.obj: C_COMPILER__laba8_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/lab8/laba8.c || cmake_object_order_depends_target_laba8
-  DEP_FILE = CMakeFiles\laba8.dir\lab8\laba8.c.obj.d
+build CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.obj: C_COMPILER__laba8_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/lab8/laba8.c || cmake_object_order_depends_target_laba8
+  DEP_FILE = CMakeFiles\laba8.dir\Lab1\lab8\laba8.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba8.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba8.dir\lab8
+  OBJECT_FILE_DIR = CMakeFiles\laba8.dir\Lab1\lab8
 
 
 # =============================================================================
@@ -327,7 +327,7 @@ build CMakeFiles/laba8.dir/lab8/laba8.c.obj: C_COMPILER__laba8_unscanned_Debug C
 #############################################
 # Link the executable laba8.exe
 
-build laba8.exe: C_EXECUTABLE_LINKER__laba8_Debug CMakeFiles/laba8.dir/lab8/laba8.c.obj
+build laba8.exe: C_EXECUTABLE_LINKER__laba8_Debug CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba8.dir
@@ -346,11 +346,11 @@ build laba8.exe: C_EXECUTABLE_LINKER__laba8_Debug CMakeFiles/laba8.dir/lab8/laba
 
 build cmake_object_order_depends_target_laba9: phony || .
 
-build CMakeFiles/laba9.dir/laba9.c.obj: C_COMPILER__laba9_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba9.c || cmake_object_order_depends_target_laba9
-  DEP_FILE = CMakeFiles\laba9.dir\laba9.c.obj.d
+build CMakeFiles/laba9.dir/Lab1/laba9.c.obj: C_COMPILER__laba9_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba9.c || cmake_object_order_depends_target_laba9
+  DEP_FILE = CMakeFiles\laba9.dir\Lab1\laba9.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba9.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba9.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba9.dir\Lab1
 
 
 # =============================================================================
@@ -360,7 +360,7 @@ build CMakeFiles/laba9.dir/laba9.c.obj: C_COMPILER__laba9_unscanned_Debug C$:/Us
 #############################################
 # Link the executable laba9.exe
 
-build laba9.exe: C_EXECUTABLE_LINKER__laba9_Debug CMakeFiles/laba9.dir/laba9.c.obj
+build laba9.exe: C_EXECUTABLE_LINKER__laba9_Debug CMakeFiles/laba9.dir/Lab1/laba9.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba9.dir
@@ -379,11 +379,11 @@ build laba9.exe: C_EXECUTABLE_LINKER__laba9_Debug CMakeFiles/laba9.dir/laba9.c.o
 
 build cmake_object_order_depends_target_laba10: phony || .
 
-build CMakeFiles/laba10.dir/laba10.c.obj: C_COMPILER__laba10_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba10.c || cmake_object_order_depends_target_laba10
-  DEP_FILE = CMakeFiles\laba10.dir\laba10.c.obj.d
+build CMakeFiles/laba10.dir/Lab1/laba10.c.obj: C_COMPILER__laba10_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba10.c || cmake_object_order_depends_target_laba10
+  DEP_FILE = CMakeFiles\laba10.dir\Lab1\laba10.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba10.dir
-  OBJECT_FILE_DIR = CMakeFiles\laba10.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba10.dir\Lab1
 
 
 # =============================================================================
@@ -393,7 +393,7 @@ build CMakeFiles/laba10.dir/laba10.c.obj: C_COMPILER__laba10_unscanned_Debug C$:
 #############################################
 # Link the executable laba10.exe
 
-build laba10.exe: C_EXECUTABLE_LINKER__laba10_Debug CMakeFiles/laba10.dir/laba10.c.obj
+build laba10.exe: C_EXECUTABLE_LINKER__laba10_Debug CMakeFiles/laba10.dir/Lab1/laba10.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\laba10.dir
@@ -402,6 +402,72 @@ build laba10.exe: C_EXECUTABLE_LINKER__laba10_Debug CMakeFiles/laba10.dir/laba10
   TARGET_FILE = laba10.exe
   TARGET_IMPLIB = liblaba10.dll.a
   TARGET_PDB = laba10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target laba2_7
+
+
+#############################################
+# Order-only phony target for laba2_7
+
+build cmake_object_order_depends_target_laba2_7: phony || .
+
+build CMakeFiles/laba2_7.dir/laba2_7.c.obj: C_COMPILER__laba2_7_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba2_7.c || cmake_object_order_depends_target_laba2_7
+  DEP_FILE = CMakeFiles\laba2_7.dir\laba2_7.c.obj.d
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\laba2_7.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba2_7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target laba2_7
+
+
+#############################################
+# Link the executable laba2_7.exe
+
+build laba2_7.exe: C_EXECUTABLE_LINKER__laba2_7_Debug CMakeFiles/laba2_7.dir/laba2_7.c.obj
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\laba2_7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = laba2_7.exe
+  TARGET_IMPLIB = liblaba2_7.dll.a
+  TARGET_PDB = laba2_7.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target laba2_2
+
+
+#############################################
+# Order-only phony target for laba2_2
+
+build cmake_object_order_depends_target_laba2_2: phony || .
+
+build CMakeFiles/laba2_2.dir/laba2_2.c.obj: C_COMPILER__laba2_2_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/laba2_2.c || cmake_object_order_depends_target_laba2_2
+  DEP_FILE = CMakeFiles\laba2_2.dir\laba2_2.c.obj.d
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\laba2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba2_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target laba2_2
+
+
+#############################################
+# Link the executable laba2_2.exe
+
+build laba2_2.exe: C_EXECUTABLE_LINKER__laba2_2_Debug CMakeFiles/laba2_2.dir/laba2_2.c.obj
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\laba2_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = laba2_2.exe
+  TARGET_IMPLIB = liblaba2_2.dll.a
+  TARGET_PDB = laba2_2.exe.dbg
 
 
 #############################################
@@ -437,6 +503,10 @@ build laba10: phony laba10.exe
 
 build laba2: phony laba2.exe
 
+build laba2_2: phony laba2_2.exe
+
+build laba2_7: phony laba2_7.exe
+
 build laba3.c: phony laba3.c.exe
 
 build laba4: phony laba4.exe
@@ -459,7 +529,7 @@ build laba9: phony laba9.exe
 #############################################
 # Folder: C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug
 
-build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe
+build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe
 
 # =============================================================================
 # Built-in targets
