@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include <limits.h>
 
 int add(char **array, int *size, int const i, char const element) {
@@ -137,7 +135,8 @@ int Handler(FILE *in_put, char **ans, int *size) {
             }
             if (number[0] == '-' && !number[1]) {
                 free(number);
-                return 1;}
+                return 1;
+            }
             if (number[0]) {
                 if (made_ans(number, ans, size, &index)) {
                     free(number);
@@ -158,7 +157,8 @@ int Handler(FILE *in_put, char **ans, int *size) {
         }
         if (number[0] == '-' && !number[1]) {
             free(number);
-            return 1;}
+            return 1;
+        }
         if (number[0]) {
             if (made_ans(number, ans, size, &index)) {
                 free(number);
@@ -169,7 +169,8 @@ int Handler(FILE *in_put, char **ans, int *size) {
     }
     if (add(ans, size, index, '\0')) {
         free(number);
-        return 1;}
+        return 1;
+    }
     free(number);
     return 0;
 

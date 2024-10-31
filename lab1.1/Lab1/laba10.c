@@ -4,7 +4,7 @@
 #include <limits.h>
 
 typedef enum {
-    SUCCESS = 0,
+    Normal = 0,
     ERR_STDIN_FALL = 1,
     ERR_INCORRECT_BASE = 2,
     ERR_INVALID_INPUT = 3,
@@ -96,7 +96,7 @@ int main() {
 
     if (strcmp(input, "Stop") == 0) {
         printf("Exit on command 'Stop'.\n");
-        return SUCCESS;
+        return Normal;
     }
 
 
@@ -142,7 +142,7 @@ int main() {
                 } else {
                     printf("No valid numbers entered.\n");
                 }
-                return SUCCESS;
+                return Normal;
             }
 
 

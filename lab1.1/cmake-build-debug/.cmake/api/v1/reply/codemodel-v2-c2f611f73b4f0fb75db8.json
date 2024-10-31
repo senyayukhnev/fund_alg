@@ -31,7 +31,10 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18,
+						19
 					]
 				}
 			],
@@ -62,7 +65,10 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17,
+						18,
+						19
 					]
 				}
 			],
@@ -133,8 +139,15 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "laba2_8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba2_8-Debug-27d14b20ef24d5c26cf6.json",
+					"name" : "laba2_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "laba3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-laba3-Debug-944fa4bc8bfc5b04ee4c.json",
+					"jsonFile" : "target-laba3-Debug-27c1acbd4b3da026cada.json",
 					"name" : "laba3",
 					"projectIndex" : 0
 				},
@@ -143,6 +156,20 @@
 					"id" : "laba3.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-laba3.c-Debug-37015b0ec06970a7dc9f.json",
 					"name" : "laba3.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laba3_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba3_1-Debug-c4a2d44459d81d78aab1.json",
+					"name" : "laba3_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laba3_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba3_3-Debug-7cc92e43d4a976699bfd.json",
+					"name" : "laba3_3",
 					"projectIndex" : 0
 				},
 				{

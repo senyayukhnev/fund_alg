@@ -51,7 +51,7 @@ int main(int argc, char** argv){
         return 1;
     }
     printf("mid geom: %lf\n", res);
-    double res2 = my_pow(2, 210);
+    double res2 = my_pow(2, -2);
     if (res2 == OVERFLOWED){
         printf("Overflowed");
         return 1;

@@ -3,7 +3,7 @@
 
 
 double ln2_equ(double x){
-    return exp(x) - 2;
+    return pow(x - 1, 2) / (x - 1);
 }
 
 double exp_equ(double x){

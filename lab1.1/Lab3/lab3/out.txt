@@ -1,0 +1,3 @@
+3 Ivan Ivanovich 1000.100100
+1 Andrea Kulikov 1012.101000
+2 Anton Respectovich 10124.101000
