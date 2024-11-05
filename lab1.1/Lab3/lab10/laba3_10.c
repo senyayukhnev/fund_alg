@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
+#include "ctype.h"
+
 
 typedef struct TreeNode {
-    char data;                     // Данные узла
-    struct TreeNode* firstChild;  // Указатель на первого ребенка
-    struct TreeNode* nextSibling; // Указатель на следующего брата
+    char data;
+    struct TreeNode* firstChild;
+    struct TreeNode* nextSibling;
 } TreeNode;
 
 typedef enum {
@@ -19,8 +21,74 @@ typedef enum {
     Equal_path,
     Malloc_err,
     Overflow,
+    Empty_tree,
+    Incorrect_str
 } Err;
+Err clean_string(const char* str, char** result) {
+    unsigned long long len_original = strlen(str);
+    char *cleaned = (char*)malloc(sizeof(char) * (len_original + 1));
+    if (!cleaned) return Malloc_err;
+    int open_brackets = 0;
+    int need_comma = 0;
+    int cnt = 0;
+    char prev_char = 0;
+    for (int i = 0; str[i] != '\n' && str[i] != '\0'; i++) {
+        char current = str[i];
 
+        if (isspace(current)) continue;
+
+        if (current == '(') {
+            if(!isalpha(prev_char)){
+                free(cleaned);
+                return Incorrect_str;
+            }
+            open_brackets++;
+            need_comma = 0;
+            cleaned[cnt++] = current;
+        } else if (current == ')') {
+            if(prev_char == '(' || prev_char == ','){
+                free(cleaned);
+                return Incorrect_str;
+            }
+            open_brackets--;
+            need_comma = 1;
+            cleaned[cnt++] = current;
+        } else if (current == ',') {
+            if (!need_comma) {
+                free(cleaned);
+                return Incorrect_str;
+            }
+            need_comma = 0;
+            cleaned[cnt++] = current;
+        } else if (isalpha(current)) {
+            if (need_comma) {
+                free(cleaned);
+                return Incorrect_str;
+            }
+            if (isalpha(prev_char)) {
+                free(cleaned);
+                return Incorrect_str;
+            }
+            cleaned[cnt++] = current;
+            need_comma = 1;
+        } else {
+            free(cleaned);
+            return Incorrect_str;
+        }
+
+        prev_char = current;
+    }
+
+    if (open_brackets != 0) {
+        free(cleaned);
+        return Incorrect_str;
+    }
+
+    cleaned[cnt] = '\0';
+    *result = cleaned;
+
+    return Normal;
+}
 Err check_file_names(const char *file1, const char *file2) {
     const char *name1 = strrchr(file1, '\\');
     const char *name2 = strrchr(file2, '\\');
@@ -71,38 +139,88 @@ void freeTree(TreeNode* node) {
     free(node);
 }
 
-TreeNode* parseTree(const char* str, int* index) {
-    while (str[*index] == ' ') (*index)++;
-    if (str[*index] == '\0' || str[*index] == ')') return NULL;
+// TreeNode* parseTree(const char* str, int* index) {
+//    while (str[*index] == ' ') (*index)++;
+//    if (str[*index] == '\0' || str[*index] == ')') return NULL;
+//    if (str[*index] == '(') {
+//        while (str[*index] == '(') {
+//            (*index)++;
+//        }
+//    }
+//    TreeNode* node = createNode(str[*index]);
+//    if (node == NULL) return NULL;
+//    (*index)++;
+//    if (str[*index] == '(') {
+//        while (str[*index] == '(') {
+//            (*index)++;
+//        }
+//        node->firstChild = parseTree(str, index);
+//    }
+//
+//
+//    TreeNode* current = node;
+//    while (str[*index] == ',') {
+//        (*index)++;
+//        current->nextSibling = parseTree(str, index);
+//        current = current->nextSibling;
+//    }
+//
+//    if (str[*index] == ')'){
+//        while(str[*index] == ')') {
+//            (*index)++;
+//        }
+//    }
+//    return node;
+//}
+    TreeNode* parseTree(const char* str, int* index) {
+        while (str[*index] == ' ') (*index)++;
+        if (str[*index] == '\0' || str[*index] == ')') return NULL;
 
-    TreeNode* node = createNode(str[*index]);
-    if (node == NULL) return NULL;
-    (*index)++;
-
-    if (str[*index] == '(') {
+        // Создаем текущий узел
+        TreeNode* node = createNode(str[*index]);
+        if (node == NULL) return NULL;
         (*index)++;
-        node->firstChild = parseTree(str, index);
-    }
 
-    TreeNode* current = node;
-    while (str[*index] == ',') {
-        (*index)++;
-        current->nextSibling = parseTree(str, index);
-        current = current->nextSibling;
-    }
+        // Если следующий символ - '(', значит, есть дети
+        if (str[*index] == '(') {
+            (*index)++;
+            node->firstChild = parseTree(str, index);
 
-    if (str[*index] == ')') (*index)++;
-    return node;
-}
+            // После обработки детей, если есть запятые, обрабатываем каждого брата
+            TreeNode* sibling = node->firstChild;
+            while (str[*index] == ',') {
+                (*index)++;
+                sibling->nextSibling = parseTree(str, index);
+                sibling = sibling->nextSibling;
+            }
+
+            // Пропускаем закрывающую скобку ')', если она есть
+            if (str[*index] == ')') (*index)++;
+        }
+
+        return node;
+    }
 
 int get_Trees(FILE *input, TreeNode*** table, int* count) {
     if (!input) return File_not_found;
     int capacity = 2;
     *table = malloc(capacity * sizeof(TreeNode*));
     if (*table == NULL) return Malloc_err;
-
     char str[512];
     while (fgets(str, sizeof(str), input) != NULL) {
+        int is_empty = 1;
+        for (int i = 0; str[i]; i++) {
+            if (!isspace(str[i])) {
+                is_empty = 0;
+                break;
+            }
+        }
+        if (is_empty) continue;
+        char *cleaned;
+        Err res = clean_string(str, &cleaned);
+        if (res != Normal){
+            return Incorrect_str;
+        }
         if (*count == capacity) {
             capacity *= 2;
             TreeNode** temp = realloc(*table, sizeof(TreeNode*) * capacity);
@@ -113,7 +231,7 @@ int get_Trees(FILE *input, TreeNode*** table, int* count) {
             *table = temp;
         }
         int index = 0;
-        (*table)[*count] = parseTree(str, &index);
+        (*table)[*count] = parseTree(cleaned, &index);
         if ((*table)[*count] == NULL) return Malloc_err;
         (*count)++;
     }
