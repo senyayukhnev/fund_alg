@@ -146,21 +146,23 @@ int get_Emp(FILE *input, Employee* employee, int* ch) {
     while (count_of_lex != 5) {
         if (*ch == EOF) break;
 
-        if (count_of_lex == 1) {  // Чтение id
+        if (count_of_lex == 1){  // Чтение id
             while (*ch != ' ' && *ch != '\t' && *ch != '\n') {
                 if (*ch >= '0' && *ch <= '9') {
                     if (employee->id > (LLONG_MAX - (*ch - '0')) / 10) { // Проверка переполнения
+                        while (*ch != ' ' && *ch != EOF) *ch = fgetc(input);
+                        *ch = fgetc(input);
                         return Incorrect_id;
                     }
                     employee->id = employee->id * 10 + (*ch - '0');
                 } else {
-                    while (*ch != '\n' && *ch != EOF) *ch = fgetc(input);
+                    while (*ch != ' ' && *ch != EOF) *ch = fgetc(input);
                     *ch = fgetc(input);
                     return Incorrect_id;
                 }
                 *ch = fgetc(input);
             }
-            if (employee->id <= 0) return Incorrect_id; // Проверка на отрицательность и нулевое значение
+            if (employee->id < 0) return Incorrect_id; // Проверка на отрицательность и нулевое значение
             next_lexem(ch, input);
             count_of_lex++;
         }
@@ -174,7 +176,7 @@ int get_Emp(FILE *input, Employee* employee, int* ch) {
                         employee->name[len + 1] = '\0';
                     }
                 }else{
-                    while (*ch != '\n' && *ch != EOF) *ch = fgetc(input);
+                    while (*ch != ' ' && *ch != EOF) *ch = fgetc(input);
                     *ch = fgetc(input);
                     return Incorrect_name;
                 }
@@ -193,7 +195,7 @@ int get_Emp(FILE *input, Employee* employee, int* ch) {
                         employee->surname[len + 1] = '\0';
                     }
                 }else{
-                    while (*ch != '\n' && *ch != EOF) *ch = fgetc(input);
+                    while (*ch != ' ' && *ch != EOF) *ch = fgetc(input);
                     *ch = fgetc(input);
                     return Incorrect_surname;
                 }
@@ -207,8 +209,9 @@ int get_Emp(FILE *input, Employee* employee, int* ch) {
             while (*ch != ' ' && *ch != '\t' && *ch != '\n' && *ch != EOF) {
                 if (*ch == '.') f = 1;
                 else if (*ch >= '0' && *ch <= '9') {
-                    if (employee->salary > (DBL_MAX - (*ch - '0')) / 10) {
-
+                    if (!isfinite(employee->salary)) {
+                        while (*ch != '\n' && *ch != EOF) *ch = fgetc(input);
+                        *ch = fgetc(input);
                         return Incorrect_salary; // Проверка переполнения
                     }
                     employee->salary = employee->salary * 10 + (*ch - '0');
@@ -223,7 +226,7 @@ int get_Emp(FILE *input, Employee* employee, int* ch) {
             if (after_dot > 0) {
                 employee->salary /= pow(10, after_dot);
             }
-            if (employee->salary <= 0.0) return Incorrect_salary; // Проверка на отрицательность и нулевое значение
+            if (employee->salary < 0.0) return Incorrect_salary; // Проверка на отрицательность и нулевое значение
             next_lexem(ch, input);
             count_of_lex++;
         }
@@ -254,11 +257,13 @@ int get_Employees(FILE *input, Employee** table, int* count){
             (*count)++;
         }
         if (*count == capipacity){
-            capipacity *= 2;
-            *table = realloc(*table, sizeof(Employee) * capipacity);
-            if (*table == NULL) {
+            capipacity *= 2; // исправить
+            Employee* temp = realloc(*table, sizeof(Employee) * capipacity);
+            if (temp == NULL) {
+                free(*table);
                 return Malloc_err;
             }
+            *table = temp;
         }
     }
     return Normal;

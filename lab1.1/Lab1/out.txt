@@ -1,0 +1,1 @@
+String 1 contains 0 no english, no arabica number, no gap symbols
