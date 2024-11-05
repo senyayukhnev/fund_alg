@@ -139,67 +139,34 @@ void freeTree(TreeNode* node) {
     free(node);
 }
 
-// TreeNode* parseTree(const char* str, int* index) {
-//    while (str[*index] == ' ') (*index)++;
-//    if (str[*index] == '\0' || str[*index] == ')') return NULL;
-//    if (str[*index] == '(') {
-//        while (str[*index] == '(') {
-//            (*index)++;
-//        }
-//    }
-//    TreeNode* node = createNode(str[*index]);
-//    if (node == NULL) return NULL;
-//    (*index)++;
-//    if (str[*index] == '(') {
-//        while (str[*index] == '(') {
-//            (*index)++;
-//        }
-//        node->firstChild = parseTree(str, index);
-//    }
-//
-//
-//    TreeNode* current = node;
-//    while (str[*index] == ',') {
-//        (*index)++;
-//        current->nextSibling = parseTree(str, index);
-//        current = current->nextSibling;
-//    }
-//
-//    if (str[*index] == ')'){
-//        while(str[*index] == ')') {
-//            (*index)++;
-//        }
-//    }
-//    return node;
-//}
-    TreeNode* parseTree(const char* str, int* index) {
-        while (str[*index] == ' ') (*index)++;
-        if (str[*index] == '\0' || str[*index] == ')') return NULL;
+TreeNode* parseTree(const char* str, int* index) {
+    while (str[*index] == ' ') (*index)++;
+    if (str[*index] == '\0' || str[*index] == ')') return NULL;
 
-        // Создаем текущий узел
-        TreeNode* node = createNode(str[*index]);
-        if (node == NULL) return NULL;
+    // Создаем текущий узел
+    TreeNode* node = createNode(str[*index]);
+    if (node == NULL) return NULL;
+    (*index)++;
+
+    // Если следующий символ - '(', значит, есть дети
+    if (str[*index] == '(') {
         (*index)++;
+        node->firstChild = parseTree(str, index);
 
-        // Если следующий символ - '(', значит, есть дети
-        if (str[*index] == '(') {
+        // После обработки детей, если есть запятые, обрабатываем каждого брата
+        TreeNode* sibling = node->firstChild;
+        while (str[*index] == ',') {
             (*index)++;
-            node->firstChild = parseTree(str, index);
-
-            // После обработки детей, если есть запятые, обрабатываем каждого брата
-            TreeNode* sibling = node->firstChild;
-            while (str[*index] == ',') {
-                (*index)++;
-                sibling->nextSibling = parseTree(str, index);
-                sibling = sibling->nextSibling;
-            }
-
-            // Пропускаем закрывающую скобку ')', если она есть
-            if (str[*index] == ')') (*index)++;
+            sibling->nextSibling = parseTree(str, index);
+            sibling = sibling->nextSibling;
         }
 
-        return node;
+        // Пропускаем закрывающую скобку ')', если она есть
+        if (str[*index] == ')') (*index)++;
     }
+
+    return node;
+}
 
 int get_Trees(FILE *input, TreeNode*** table, int* count) {
     if (!input) return File_not_found;
