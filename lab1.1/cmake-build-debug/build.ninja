@@ -220,12 +220,6 @@ build CMakeFiles/another6.dir/to_test_smth.c.obj: C_COMPILER__another6_unscanned
   OBJECT_DIR = CMakeFiles\another6.dir
   OBJECT_FILE_DIR = CMakeFiles\another6.dir
 
-build CMakeFiles/another6.dir/test/main.c.obj: C_COMPILER__another6_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/test/main.c || cmake_object_order_depends_target_another6
-  DEP_FILE = CMakeFiles\another6.dir\test\main.c.obj.d
-  FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\another6.dir
-  OBJECT_FILE_DIR = CMakeFiles\another6.dir\test
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target another6
@@ -234,7 +228,7 @@ build CMakeFiles/another6.dir/test/main.c.obj: C_COMPILER__another6_unscanned_De
 #############################################
 # Link the executable another6.exe
 
-build another6.exe: C_EXECUTABLE_LINKER__another6_Debug CMakeFiles/another6.dir/to_test_smth.c.obj CMakeFiles/another6.dir/test/main.c.obj
+build another6.exe: C_EXECUTABLE_LINKER__another6_Debug CMakeFiles/another6.dir/to_test_smth.c.obj
   FLAGS = -D_POSIX_C_SOURCE=200809L -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\another6.dir
@@ -772,6 +766,72 @@ build laba3_2.exe: C_EXECUTABLE_LINKER__laba3_2_Debug CMakeFiles/laba3_2.dir/Lab
   TARGET_IMPLIB = liblaba3_2.dll.a
   TARGET_PDB = laba3_2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target main.c
+
+
+#############################################
+# Order-only phony target for main.c
+
+build cmake_object_order_depends_target_main.c: phony || .
+
+build CMakeFiles/main.c.dir/test/main.c.obj: C_COMPILER__main.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/test/main.c || cmake_object_order_depends_target_main.c
+  DEP_FILE = CMakeFiles\main.c.dir\test\main.c.obj.d
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.c.dir\test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main.c
+
+
+#############################################
+# Link the executable main.c.exe
+
+build main.c.exe: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/test/main.c.obj
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main.c.exe
+  TARGET_IMPLIB = libmain.c.dll.a
+  TARGET_PDB = main.c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target laba3_5
+
+
+#############################################
+# Order-only phony target for laba3_5
+
+build cmake_object_order_depends_target_laba3_5: phony || .
+
+build CMakeFiles/laba3_5.dir/Lab3/lab5/laba3_5.c.obj: C_COMPILER__laba3_5_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab3/lab5/laba3_5.c || cmake_object_order_depends_target_laba3_5
+  DEP_FILE = CMakeFiles\laba3_5.dir\Lab3\lab5\laba3_5.c.obj.d
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\laba3_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba3_5.dir\Lab3\lab5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target laba3_5
+
+
+#############################################
+# Link the executable laba3_5.exe
+
+build laba3_5.exe: C_EXECUTABLE_LINKER__laba3_5_Debug CMakeFiles/laba3_5.dir/Lab3/lab5/laba3_5.c.obj
+  FLAGS = -D_POSIX_C_SOURCE=200809L -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\laba3_5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = laba3_5.exe
+  TARGET_IMPLIB = liblaba3_5.dll.a
+  TARGET_PDB = laba3_5.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -830,6 +890,8 @@ build laba3_2: phony laba3_2.exe
 
 build laba3_3: phony laba3_3.exe
 
+build laba3_5: phony laba3_5.exe
+
 build laba4: phony laba4.exe
 
 build laba5.c: phony laba5.c.exe
@@ -842,6 +904,8 @@ build laba8: phony laba8.exe
 
 build laba9: phony laba9.exe
 
+build main.c: phony main.c.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -850,7 +914,7 @@ build laba9: phony laba9.exe
 #############################################
 # Folder: C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug
 
-build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe laba2_1.exe laba2_10.exe laba2_4.exe laba3.exe laba2_8.exe laba3_3.exe laba3_1.exe laba3_10.exe laba3_2.exe
+build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe laba2_1.exe laba2_10.exe laba2_4.exe laba3.exe laba2_8.exe laba3_3.exe laba3_1.exe laba3_10.exe laba3_2.exe main.c.exe laba3_5.exe
 
 # =============================================================================
 # Built-in targets

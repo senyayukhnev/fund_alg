@@ -20,5 +20,7 @@ C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba3_3.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba3_1.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba3_10.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba3_2.dir
+C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/main.c.dir
+C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba3_5.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
