@@ -272,293 +272,663 @@ laba2_7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/build
 .PHONY : laba2_7/fast
 
-lab4/laba4.o: lab4/laba4.c.o
-.PHONY : lab4/laba4.o
+#=============================================================================
+# Target rules for targets named laba2_2
+
+# Build rule for target.
+laba2_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba2_2
+.PHONY : laba2_2
+
+# fast build rule for target.
+laba2_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_2.dir/build.make CMakeFiles/laba2_2.dir/build
+.PHONY : laba2_2/fast
+
+#=============================================================================
+# Target rules for targets named laba2_1
+
+# Build rule for target.
+laba2_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba2_1
+.PHONY : laba2_1
+
+# fast build rule for target.
+laba2_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_1.dir/build.make CMakeFiles/laba2_1.dir/build
+.PHONY : laba2_1/fast
+
+#=============================================================================
+# Target rules for targets named laba2_10
+
+# Build rule for target.
+laba2_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba2_10
+.PHONY : laba2_10
+
+# fast build rule for target.
+laba2_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_10.dir/build.make CMakeFiles/laba2_10.dir/build
+.PHONY : laba2_10/fast
+
+#=============================================================================
+# Target rules for targets named laba2_4
+
+# Build rule for target.
+laba2_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba2_4
+.PHONY : laba2_4
+
+# fast build rule for target.
+laba2_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_4.dir/build.make CMakeFiles/laba2_4.dir/build
+.PHONY : laba2_4/fast
+
+#=============================================================================
+# Target rules for targets named laba3
+
+# Build rule for target.
+laba3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba3
+.PHONY : laba3
+
+# fast build rule for target.
+laba3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.dir/build.make CMakeFiles/laba3.dir/build
+.PHONY : laba3/fast
+
+#=============================================================================
+# Target rules for targets named laba2_8
+
+# Build rule for target.
+laba2_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba2_8
+.PHONY : laba2_8
+
+# fast build rule for target.
+laba2_8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_8.dir/build.make CMakeFiles/laba2_8.dir/build
+.PHONY : laba2_8/fast
+
+#=============================================================================
+# Target rules for targets named laba3_3
+
+# Build rule for target.
+laba3_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba3_3
+.PHONY : laba3_3
+
+# fast build rule for target.
+laba3_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_3.dir/build.make CMakeFiles/laba3_3.dir/build
+.PHONY : laba3_3/fast
+
+#=============================================================================
+# Target rules for targets named laba3_1
+
+# Build rule for target.
+laba3_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba3_1
+.PHONY : laba3_1
+
+# fast build rule for target.
+laba3_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_1.dir/build.make CMakeFiles/laba3_1.dir/build
+.PHONY : laba3_1/fast
+
+#=============================================================================
+# Target rules for targets named laba3_10
+
+# Build rule for target.
+laba3_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba3_10
+.PHONY : laba3_10
+
+# fast build rule for target.
+laba3_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_10.dir/build.make CMakeFiles/laba3_10.dir/build
+.PHONY : laba3_10/fast
+
+#=============================================================================
+# Target rules for targets named laba3_2
+
+# Build rule for target.
+laba3_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba3_2
+.PHONY : laba3_2
+
+# fast build rule for target.
+laba3_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_2.dir/build.make CMakeFiles/laba3_2.dir/build
+.PHONY : laba3_2/fast
+
+Lab1/lab4/laba4.o: Lab1/lab4/laba4.c.o
+.PHONY : Lab1/lab4/laba4.o
 
 # target to build an object file
-lab4/laba4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/lab4/laba4.c.o
-.PHONY : lab4/laba4.c.o
+Lab1/lab4/laba4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.o
+.PHONY : Lab1/lab4/laba4.c.o
 
-lab4/laba4.i: lab4/laba4.c.i
-.PHONY : lab4/laba4.i
+Lab1/lab4/laba4.i: Lab1/lab4/laba4.c.i
+.PHONY : Lab1/lab4/laba4.i
 
 # target to preprocess a source file
-lab4/laba4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/lab4/laba4.c.i
-.PHONY : lab4/laba4.c.i
+Lab1/lab4/laba4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.i
+.PHONY : Lab1/lab4/laba4.c.i
 
-lab4/laba4.s: lab4/laba4.c.s
-.PHONY : lab4/laba4.s
+Lab1/lab4/laba4.s: Lab1/lab4/laba4.c.s
+.PHONY : Lab1/lab4/laba4.s
 
 # target to generate assembly for a file
-lab4/laba4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/lab4/laba4.c.s
-.PHONY : lab4/laba4.c.s
+Lab1/lab4/laba4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba4.dir/build.make CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.s
+.PHONY : Lab1/lab4/laba4.c.s
 
-lab7/laba7.o: lab7/laba7.c.o
-.PHONY : lab7/laba7.o
+Lab1/lab7/laba7.o: Lab1/lab7/laba7.c.o
+.PHONY : Lab1/lab7/laba7.o
 
 # target to build an object file
-lab7/laba7.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/lab7/laba7.c.o
-.PHONY : lab7/laba7.c.o
+Lab1/lab7/laba7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.o
+.PHONY : Lab1/lab7/laba7.c.o
 
-lab7/laba7.i: lab7/laba7.c.i
-.PHONY : lab7/laba7.i
+Lab1/lab7/laba7.i: Lab1/lab7/laba7.c.i
+.PHONY : Lab1/lab7/laba7.i
 
 # target to preprocess a source file
-lab7/laba7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/lab7/laba7.c.i
-.PHONY : lab7/laba7.c.i
+Lab1/lab7/laba7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.i
+.PHONY : Lab1/lab7/laba7.c.i
 
-lab7/laba7.s: lab7/laba7.c.s
-.PHONY : lab7/laba7.s
+Lab1/lab7/laba7.s: Lab1/lab7/laba7.c.s
+.PHONY : Lab1/lab7/laba7.s
 
 # target to generate assembly for a file
-lab7/laba7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/lab7/laba7.c.s
-.PHONY : lab7/laba7.c.s
+Lab1/lab7/laba7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba7.dir/build.make CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.s
+.PHONY : Lab1/lab7/laba7.c.s
 
-lab8/laba8.o: lab8/laba8.c.o
-.PHONY : lab8/laba8.o
+Lab1/lab8/laba8.o: Lab1/lab8/laba8.c.o
+.PHONY : Lab1/lab8/laba8.o
 
 # target to build an object file
-lab8/laba8.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/lab8/laba8.c.o
-.PHONY : lab8/laba8.c.o
+Lab1/lab8/laba8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.o
+.PHONY : Lab1/lab8/laba8.c.o
 
-lab8/laba8.i: lab8/laba8.c.i
-.PHONY : lab8/laba8.i
+Lab1/lab8/laba8.i: Lab1/lab8/laba8.c.i
+.PHONY : Lab1/lab8/laba8.i
 
 # target to preprocess a source file
-lab8/laba8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/lab8/laba8.c.i
-.PHONY : lab8/laba8.c.i
+Lab1/lab8/laba8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.i
+.PHONY : Lab1/lab8/laba8.c.i
 
-lab8/laba8.s: lab8/laba8.c.s
-.PHONY : lab8/laba8.s
+Lab1/lab8/laba8.s: Lab1/lab8/laba8.c.s
+.PHONY : Lab1/lab8/laba8.s
 
 # target to generate assembly for a file
-lab8/laba8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/lab8/laba8.c.s
-.PHONY : lab8/laba8.c.s
+Lab1/lab8/laba8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba8.dir/build.make CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.s
+.PHONY : Lab1/lab8/laba8.c.s
 
-laba1.o: laba1.c.o
-.PHONY : laba1.o
+Lab1/laba1.o: Lab1/laba1.c.o
+.PHONY : Lab1/laba1.o
 
 # target to build an object file
-laba1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/laba1.c.o
-.PHONY : laba1.c.o
+Lab1/laba1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/Lab1/laba1.c.o
+.PHONY : Lab1/laba1.c.o
 
-laba1.i: laba1.c.i
-.PHONY : laba1.i
+Lab1/laba1.i: Lab1/laba1.c.i
+.PHONY : Lab1/laba1.i
 
 # target to preprocess a source file
-laba1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/laba1.c.i
-.PHONY : laba1.c.i
+Lab1/laba1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/Lab1/laba1.c.i
+.PHONY : Lab1/laba1.c.i
 
-laba1.s: laba1.c.s
-.PHONY : laba1.s
+Lab1/laba1.s: Lab1/laba1.c.s
+.PHONY : Lab1/laba1.s
 
 # target to generate assembly for a file
-laba1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/laba1.c.s
-.PHONY : laba1.c.s
+Lab1/laba1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba1.c.dir/build.make CMakeFiles/laba1.c.dir/Lab1/laba1.c.s
+.PHONY : Lab1/laba1.c.s
 
-laba10.o: laba10.c.o
-.PHONY : laba10.o
+Lab1/laba10.o: Lab1/laba10.c.o
+.PHONY : Lab1/laba10.o
 
 # target to build an object file
-laba10.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/laba10.c.o
-.PHONY : laba10.c.o
+Lab1/laba10.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/Lab1/laba10.c.o
+.PHONY : Lab1/laba10.c.o
 
-laba10.i: laba10.c.i
-.PHONY : laba10.i
+Lab1/laba10.i: Lab1/laba10.c.i
+.PHONY : Lab1/laba10.i
 
 # target to preprocess a source file
-laba10.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/laba10.c.i
-.PHONY : laba10.c.i
+Lab1/laba10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/Lab1/laba10.c.i
+.PHONY : Lab1/laba10.c.i
 
-laba10.s: laba10.c.s
-.PHONY : laba10.s
+Lab1/laba10.s: Lab1/laba10.c.s
+.PHONY : Lab1/laba10.s
 
 # target to generate assembly for a file
-laba10.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/laba10.c.s
-.PHONY : laba10.c.s
+Lab1/laba10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba10.dir/build.make CMakeFiles/laba10.dir/Lab1/laba10.c.s
+.PHONY : Lab1/laba10.c.s
 
-laba2.o: laba2.c.o
-.PHONY : laba2.o
+Lab1/laba2.o: Lab1/laba2.c.o
+.PHONY : Lab1/laba2.o
 
 # target to build an object file
-laba2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/laba2.c.o
-.PHONY : laba2.c.o
+Lab1/laba2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/Lab1/laba2.c.o
+.PHONY : Lab1/laba2.c.o
 
-laba2.i: laba2.c.i
-.PHONY : laba2.i
+Lab1/laba2.i: Lab1/laba2.c.i
+.PHONY : Lab1/laba2.i
 
 # target to preprocess a source file
-laba2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/laba2.c.i
-.PHONY : laba2.c.i
+Lab1/laba2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/Lab1/laba2.c.i
+.PHONY : Lab1/laba2.c.i
 
-laba2.s: laba2.c.s
-.PHONY : laba2.s
+Lab1/laba2.s: Lab1/laba2.c.s
+.PHONY : Lab1/laba2.s
 
 # target to generate assembly for a file
-laba2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/laba2.c.s
-.PHONY : laba2.c.s
+Lab1/laba2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2.dir/build.make CMakeFiles/laba2.dir/Lab1/laba2.c.s
+.PHONY : Lab1/laba2.c.s
 
-laba2_7.o: laba2_7.c.o
-.PHONY : laba2_7.o
+Lab1/laba3.o: Lab1/laba3.c.o
+.PHONY : Lab1/laba3.o
 
 # target to build an object file
-laba2_7.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/laba2_7.c.o
-.PHONY : laba2_7.c.o
+Lab1/laba3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/Lab1/laba3.c.o
+.PHONY : Lab1/laba3.c.o
 
-laba2_7.i: laba2_7.c.i
-.PHONY : laba2_7.i
+Lab1/laba3.i: Lab1/laba3.c.i
+.PHONY : Lab1/laba3.i
 
 # target to preprocess a source file
-laba2_7.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/laba2_7.c.i
-.PHONY : laba2_7.c.i
+Lab1/laba3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/Lab1/laba3.c.i
+.PHONY : Lab1/laba3.c.i
 
-laba2_7.s: laba2_7.c.s
-.PHONY : laba2_7.s
+Lab1/laba3.s: Lab1/laba3.c.s
+.PHONY : Lab1/laba3.s
 
 # target to generate assembly for a file
-laba2_7.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/laba2_7.c.s
-.PHONY : laba2_7.c.s
+Lab1/laba3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/Lab1/laba3.c.s
+.PHONY : Lab1/laba3.c.s
 
-laba3.o: laba3.c.o
-.PHONY : laba3.o
+Lab1/laba5.o: Lab1/laba5.c.o
+.PHONY : Lab1/laba5.o
 
 # target to build an object file
-laba3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/laba3.c.o
-.PHONY : laba3.c.o
+Lab1/laba5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba5.c.dir/build.make CMakeFiles/laba5.c.dir/Lab1/laba5.c.o
+.PHONY : Lab1/laba5.c.o
 
-laba3.i: laba3.c.i
-.PHONY : laba3.i
+Lab1/laba5.i: Lab1/laba5.c.i
+.PHONY : Lab1/laba5.i
 
 # target to preprocess a source file
-laba3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/laba3.c.i
-.PHONY : laba3.c.i
+Lab1/laba5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba5.c.dir/build.make CMakeFiles/laba5.c.dir/Lab1/laba5.c.i
+.PHONY : Lab1/laba5.c.i
 
-laba3.s: laba3.c.s
-.PHONY : laba3.s
+Lab1/laba5.s: Lab1/laba5.c.s
+.PHONY : Lab1/laba5.s
 
 # target to generate assembly for a file
-laba3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.c.dir/build.make CMakeFiles/laba3.c.dir/laba3.c.s
-.PHONY : laba3.c.s
+Lab1/laba5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba5.c.dir/build.make CMakeFiles/laba5.c.dir/Lab1/laba5.c.s
+.PHONY : Lab1/laba5.c.s
 
-laba5.o: laba5.c.o
-.PHONY : laba5.o
+Lab1/laba6.o: Lab1/laba6.c.o
+.PHONY : Lab1/laba6.o
 
 # target to build an object file
-laba5.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba5.c.dir/build.make CMakeFiles/laba5.c.dir/laba5.c.o
-.PHONY : laba5.c.o
+Lab1/laba6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba6.c.dir/build.make CMakeFiles/laba6.c.dir/Lab1/laba6.c.o
+.PHONY : Lab1/laba6.c.o
 
-laba5.i: laba5.c.i
-.PHONY : laba5.i
+Lab1/laba6.i: Lab1/laba6.c.i
+.PHONY : Lab1/laba6.i
 
 # target to preprocess a source file
-laba5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba5.c.dir/build.make CMakeFiles/laba5.c.dir/laba5.c.i
-.PHONY : laba5.c.i
+Lab1/laba6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba6.c.dir/build.make CMakeFiles/laba6.c.dir/Lab1/laba6.c.i
+.PHONY : Lab1/laba6.c.i
 
-laba5.s: laba5.c.s
-.PHONY : laba5.s
+Lab1/laba6.s: Lab1/laba6.c.s
+.PHONY : Lab1/laba6.s
 
 # target to generate assembly for a file
-laba5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba5.c.dir/build.make CMakeFiles/laba5.c.dir/laba5.c.s
-.PHONY : laba5.c.s
+Lab1/laba6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba6.c.dir/build.make CMakeFiles/laba6.c.dir/Lab1/laba6.c.s
+.PHONY : Lab1/laba6.c.s
 
-laba6.o: laba6.c.o
-.PHONY : laba6.o
+Lab1/laba9.o: Lab1/laba9.c.o
+.PHONY : Lab1/laba9.o
 
 # target to build an object file
-laba6.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba6.c.dir/build.make CMakeFiles/laba6.c.dir/laba6.c.o
-.PHONY : laba6.c.o
+Lab1/laba9.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/Lab1/laba9.c.o
+.PHONY : Lab1/laba9.c.o
 
-laba6.i: laba6.c.i
-.PHONY : laba6.i
+Lab1/laba9.i: Lab1/laba9.c.i
+.PHONY : Lab1/laba9.i
 
 # target to preprocess a source file
-laba6.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba6.c.dir/build.make CMakeFiles/laba6.c.dir/laba6.c.i
-.PHONY : laba6.c.i
+Lab1/laba9.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/Lab1/laba9.c.i
+.PHONY : Lab1/laba9.c.i
 
-laba6.s: laba6.c.s
-.PHONY : laba6.s
+Lab1/laba9.s: Lab1/laba9.c.s
+.PHONY : Lab1/laba9.s
 
 # target to generate assembly for a file
-laba6.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba6.c.dir/build.make CMakeFiles/laba6.c.dir/laba6.c.s
-.PHONY : laba6.c.s
+Lab1/laba9.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/Lab1/laba9.c.s
+.PHONY : Lab1/laba9.c.s
 
-laba6_2.o: laba6_2.c.o
-.PHONY : laba6_2.o
+Lab2/laba2_1.o: Lab2/laba2_1.c.o
+.PHONY : Lab2/laba2_1.o
 
 # target to build an object file
-laba6_2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/laba6_2.c.o
-.PHONY : laba6_2.c.o
+Lab2/laba2_1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_1.dir/build.make CMakeFiles/laba2_1.dir/Lab2/laba2_1.c.o
+.PHONY : Lab2/laba2_1.c.o
 
-laba6_2.i: laba6_2.c.i
-.PHONY : laba6_2.i
+Lab2/laba2_1.i: Lab2/laba2_1.c.i
+.PHONY : Lab2/laba2_1.i
 
 # target to preprocess a source file
-laba6_2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/laba6_2.c.i
-.PHONY : laba6_2.c.i
+Lab2/laba2_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_1.dir/build.make CMakeFiles/laba2_1.dir/Lab2/laba2_1.c.i
+.PHONY : Lab2/laba2_1.c.i
 
-laba6_2.s: laba6_2.c.s
-.PHONY : laba6_2.s
+Lab2/laba2_1.s: Lab2/laba2_1.c.s
+.PHONY : Lab2/laba2_1.s
 
 # target to generate assembly for a file
-laba6_2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/laba6_2.c.s
-.PHONY : laba6_2.c.s
+Lab2/laba2_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_1.dir/build.make CMakeFiles/laba2_1.dir/Lab2/laba2_1.c.s
+.PHONY : Lab2/laba2_1.c.s
 
-laba9.o: laba9.c.o
-.PHONY : laba9.o
+Lab2/laba2_10.o: Lab2/laba2_10.c.o
+.PHONY : Lab2/laba2_10.o
 
 # target to build an object file
-laba9.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/laba9.c.o
-.PHONY : laba9.c.o
+Lab2/laba2_10.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_10.dir/build.make CMakeFiles/laba2_10.dir/Lab2/laba2_10.c.o
+.PHONY : Lab2/laba2_10.c.o
 
-laba9.i: laba9.c.i
-.PHONY : laba9.i
+Lab2/laba2_10.i: Lab2/laba2_10.c.i
+.PHONY : Lab2/laba2_10.i
 
 # target to preprocess a source file
-laba9.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/laba9.c.i
-.PHONY : laba9.c.i
+Lab2/laba2_10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_10.dir/build.make CMakeFiles/laba2_10.dir/Lab2/laba2_10.c.i
+.PHONY : Lab2/laba2_10.c.i
 
-laba9.s: laba9.c.s
-.PHONY : laba9.s
+Lab2/laba2_10.s: Lab2/laba2_10.c.s
+.PHONY : Lab2/laba2_10.s
 
 # target to generate assembly for a file
-laba9.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba9.dir/build.make CMakeFiles/laba9.dir/laba9.c.s
-.PHONY : laba9.c.s
+Lab2/laba2_10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_10.dir/build.make CMakeFiles/laba2_10.dir/Lab2/laba2_10.c.s
+.PHONY : Lab2/laba2_10.c.s
+
+Lab2/laba2_2.o: Lab2/laba2_2.c.o
+.PHONY : Lab2/laba2_2.o
+
+# target to build an object file
+Lab2/laba2_2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_2.dir/build.make CMakeFiles/laba2_2.dir/Lab2/laba2_2.c.o
+.PHONY : Lab2/laba2_2.c.o
+
+Lab2/laba2_2.i: Lab2/laba2_2.c.i
+.PHONY : Lab2/laba2_2.i
+
+# target to preprocess a source file
+Lab2/laba2_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_2.dir/build.make CMakeFiles/laba2_2.dir/Lab2/laba2_2.c.i
+.PHONY : Lab2/laba2_2.c.i
+
+Lab2/laba2_2.s: Lab2/laba2_2.c.s
+.PHONY : Lab2/laba2_2.s
+
+# target to generate assembly for a file
+Lab2/laba2_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_2.dir/build.make CMakeFiles/laba2_2.dir/Lab2/laba2_2.c.s
+.PHONY : Lab2/laba2_2.c.s
+
+Lab2/laba2_3.o: Lab2/laba2_3.c.o
+.PHONY : Lab2/laba2_3.o
+
+# target to build an object file
+Lab2/laba2_3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.dir/build.make CMakeFiles/laba3.dir/Lab2/laba2_3.c.o
+.PHONY : Lab2/laba2_3.c.o
+
+Lab2/laba2_3.i: Lab2/laba2_3.c.i
+.PHONY : Lab2/laba2_3.i
+
+# target to preprocess a source file
+Lab2/laba2_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.dir/build.make CMakeFiles/laba3.dir/Lab2/laba2_3.c.i
+.PHONY : Lab2/laba2_3.c.i
+
+Lab2/laba2_3.s: Lab2/laba2_3.c.s
+.PHONY : Lab2/laba2_3.s
+
+# target to generate assembly for a file
+Lab2/laba2_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3.dir/build.make CMakeFiles/laba3.dir/Lab2/laba2_3.c.s
+.PHONY : Lab2/laba2_3.c.s
+
+Lab2/laba2_4.o: Lab2/laba2_4.c.o
+.PHONY : Lab2/laba2_4.o
+
+# target to build an object file
+Lab2/laba2_4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_4.dir/build.make CMakeFiles/laba2_4.dir/Lab2/laba2_4.c.o
+.PHONY : Lab2/laba2_4.c.o
+
+Lab2/laba2_4.i: Lab2/laba2_4.c.i
+.PHONY : Lab2/laba2_4.i
+
+# target to preprocess a source file
+Lab2/laba2_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_4.dir/build.make CMakeFiles/laba2_4.dir/Lab2/laba2_4.c.i
+.PHONY : Lab2/laba2_4.c.i
+
+Lab2/laba2_4.s: Lab2/laba2_4.c.s
+.PHONY : Lab2/laba2_4.s
+
+# target to generate assembly for a file
+Lab2/laba2_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_4.dir/build.make CMakeFiles/laba2_4.dir/Lab2/laba2_4.c.s
+.PHONY : Lab2/laba2_4.c.s
+
+Lab2/laba2_7.o: Lab2/laba2_7.c.o
+.PHONY : Lab2/laba2_7.o
+
+# target to build an object file
+Lab2/laba2_7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/Lab2/laba2_7.c.o
+.PHONY : Lab2/laba2_7.c.o
+
+Lab2/laba2_7.i: Lab2/laba2_7.c.i
+.PHONY : Lab2/laba2_7.i
+
+# target to preprocess a source file
+Lab2/laba2_7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/Lab2/laba2_7.c.i
+.PHONY : Lab2/laba2_7.c.i
+
+Lab2/laba2_7.s: Lab2/laba2_7.c.s
+.PHONY : Lab2/laba2_7.s
+
+# target to generate assembly for a file
+Lab2/laba2_7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_7.dir/build.make CMakeFiles/laba2_7.dir/Lab2/laba2_7.c.s
+.PHONY : Lab2/laba2_7.c.s
+
+Lab2/laba2_8.o: Lab2/laba2_8.c.o
+.PHONY : Lab2/laba2_8.o
+
+# target to build an object file
+Lab2/laba2_8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_8.dir/build.make CMakeFiles/laba2_8.dir/Lab2/laba2_8.c.o
+.PHONY : Lab2/laba2_8.c.o
+
+Lab2/laba2_8.i: Lab2/laba2_8.c.i
+.PHONY : Lab2/laba2_8.i
+
+# target to preprocess a source file
+Lab2/laba2_8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_8.dir/build.make CMakeFiles/laba2_8.dir/Lab2/laba2_8.c.i
+.PHONY : Lab2/laba2_8.c.i
+
+Lab2/laba2_8.s: Lab2/laba2_8.c.s
+.PHONY : Lab2/laba2_8.s
+
+# target to generate assembly for a file
+Lab2/laba2_8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba2_8.dir/build.make CMakeFiles/laba2_8.dir/Lab2/laba2_8.c.s
+.PHONY : Lab2/laba2_8.c.s
+
+Lab3/lab10/laba3_10.o: Lab3/lab10/laba3_10.c.o
+.PHONY : Lab3/lab10/laba3_10.o
+
+# target to build an object file
+Lab3/lab10/laba3_10.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_10.dir/build.make CMakeFiles/laba3_10.dir/Lab3/lab10/laba3_10.c.o
+.PHONY : Lab3/lab10/laba3_10.c.o
+
+Lab3/lab10/laba3_10.i: Lab3/lab10/laba3_10.c.i
+.PHONY : Lab3/lab10/laba3_10.i
+
+# target to preprocess a source file
+Lab3/lab10/laba3_10.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_10.dir/build.make CMakeFiles/laba3_10.dir/Lab3/lab10/laba3_10.c.i
+.PHONY : Lab3/lab10/laba3_10.c.i
+
+Lab3/lab10/laba3_10.s: Lab3/lab10/laba3_10.c.s
+.PHONY : Lab3/lab10/laba3_10.s
+
+# target to generate assembly for a file
+Lab3/lab10/laba3_10.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_10.dir/build.make CMakeFiles/laba3_10.dir/Lab3/lab10/laba3_10.c.s
+.PHONY : Lab3/lab10/laba3_10.c.s
+
+Lab3/lab3/laba3_3.o: Lab3/lab3/laba3_3.c.o
+.PHONY : Lab3/lab3/laba3_3.o
+
+# target to build an object file
+Lab3/lab3/laba3_3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_3.dir/build.make CMakeFiles/laba3_3.dir/Lab3/lab3/laba3_3.c.o
+.PHONY : Lab3/lab3/laba3_3.c.o
+
+Lab3/lab3/laba3_3.i: Lab3/lab3/laba3_3.c.i
+.PHONY : Lab3/lab3/laba3_3.i
+
+# target to preprocess a source file
+Lab3/lab3/laba3_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_3.dir/build.make CMakeFiles/laba3_3.dir/Lab3/lab3/laba3_3.c.i
+.PHONY : Lab3/lab3/laba3_3.c.i
+
+Lab3/lab3/laba3_3.s: Lab3/lab3/laba3_3.c.s
+.PHONY : Lab3/lab3/laba3_3.s
+
+# target to generate assembly for a file
+Lab3/lab3/laba3_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_3.dir/build.make CMakeFiles/laba3_3.dir/Lab3/lab3/laba3_3.c.s
+.PHONY : Lab3/lab3/laba3_3.c.s
+
+Lab3/laba3_1.o: Lab3/laba3_1.c.o
+.PHONY : Lab3/laba3_1.o
+
+# target to build an object file
+Lab3/laba3_1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_1.dir/build.make CMakeFiles/laba3_1.dir/Lab3/laba3_1.c.o
+.PHONY : Lab3/laba3_1.c.o
+
+Lab3/laba3_1.i: Lab3/laba3_1.c.i
+.PHONY : Lab3/laba3_1.i
+
+# target to preprocess a source file
+Lab3/laba3_1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_1.dir/build.make CMakeFiles/laba3_1.dir/Lab3/laba3_1.c.i
+.PHONY : Lab3/laba3_1.c.i
+
+Lab3/laba3_1.s: Lab3/laba3_1.c.s
+.PHONY : Lab3/laba3_1.s
+
+# target to generate assembly for a file
+Lab3/laba3_1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_1.dir/build.make CMakeFiles/laba3_1.dir/Lab3/laba3_1.c.s
+.PHONY : Lab3/laba3_1.c.s
+
+Lab3/laba3_2.o: Lab3/laba3_2.c.o
+.PHONY : Lab3/laba3_2.o
+
+# target to build an object file
+Lab3/laba3_2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_2.dir/build.make CMakeFiles/laba3_2.dir/Lab3/laba3_2.c.o
+.PHONY : Lab3/laba3_2.c.o
+
+Lab3/laba3_2.i: Lab3/laba3_2.c.i
+.PHONY : Lab3/laba3_2.i
+
+# target to preprocess a source file
+Lab3/laba3_2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_2.dir/build.make CMakeFiles/laba3_2.dir/Lab3/laba3_2.c.i
+.PHONY : Lab3/laba3_2.c.i
+
+Lab3/laba3_2.s: Lab3/laba3_2.c.s
+.PHONY : Lab3/laba3_2.s
+
+# target to generate assembly for a file
+Lab3/laba3_2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba3_2.dir/build.make CMakeFiles/laba3_2.dir/Lab3/laba3_2.c.s
+.PHONY : Lab3/laba3_2.c.s
+
+to_test_smth.o: to_test_smth.c.o
+.PHONY : to_test_smth.o
+
+# target to build an object file
+to_test_smth.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/to_test_smth.c.o
+.PHONY : to_test_smth.c.o
+
+to_test_smth.i: to_test_smth.c.i
+.PHONY : to_test_smth.i
+
+# target to preprocess a source file
+to_test_smth.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/to_test_smth.c.i
+.PHONY : to_test_smth.c.i
+
+to_test_smth.s: to_test_smth.c.s
+.PHONY : to_test_smth.s
+
+# target to generate assembly for a file
+to_test_smth.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/another6.dir/build.make CMakeFiles/another6.dir/to_test_smth.c.s
+.PHONY : to_test_smth.c.s
 
 # Help Target
 help:
@@ -572,50 +942,90 @@ help:
 	@echo "... laba1.c"
 	@echo "... laba10"
 	@echo "... laba2"
+	@echo "... laba2_1"
+	@echo "... laba2_10"
+	@echo "... laba2_2"
+	@echo "... laba2_4"
 	@echo "... laba2_7"
+	@echo "... laba2_8"
+	@echo "... laba3"
 	@echo "... laba3.c"
+	@echo "... laba3_1"
+	@echo "... laba3_10"
+	@echo "... laba3_2"
+	@echo "... laba3_3"
 	@echo "... laba4"
 	@echo "... laba5.c"
 	@echo "... laba6.c"
 	@echo "... laba7"
 	@echo "... laba8"
 	@echo "... laba9"
-	@echo "... lab4/laba4.o"
-	@echo "... lab4/laba4.i"
-	@echo "... lab4/laba4.s"
-	@echo "... lab7/laba7.o"
-	@echo "... lab7/laba7.i"
-	@echo "... lab7/laba7.s"
-	@echo "... lab8/laba8.o"
-	@echo "... lab8/laba8.i"
-	@echo "... lab8/laba8.s"
-	@echo "... laba1.o"
-	@echo "... laba1.i"
-	@echo "... laba1.s"
-	@echo "... laba10.o"
-	@echo "... laba10.i"
-	@echo "... laba10.s"
-	@echo "... laba2.o"
-	@echo "... laba2.i"
-	@echo "... laba2.s"
-	@echo "... laba2_7.o"
-	@echo "... laba2_7.i"
-	@echo "... laba2_7.s"
-	@echo "... laba3.o"
-	@echo "... laba3.i"
-	@echo "... laba3.s"
-	@echo "... laba5.o"
-	@echo "... laba5.i"
-	@echo "... laba5.s"
-	@echo "... laba6.o"
-	@echo "... laba6.i"
-	@echo "... laba6.s"
-	@echo "... laba6_2.o"
-	@echo "... laba6_2.i"
-	@echo "... laba6_2.s"
-	@echo "... laba9.o"
-	@echo "... laba9.i"
-	@echo "... laba9.s"
+	@echo "... Lab1/lab4/laba4.o"
+	@echo "... Lab1/lab4/laba4.i"
+	@echo "... Lab1/lab4/laba4.s"
+	@echo "... Lab1/lab7/laba7.o"
+	@echo "... Lab1/lab7/laba7.i"
+	@echo "... Lab1/lab7/laba7.s"
+	@echo "... Lab1/lab8/laba8.o"
+	@echo "... Lab1/lab8/laba8.i"
+	@echo "... Lab1/lab8/laba8.s"
+	@echo "... Lab1/laba1.o"
+	@echo "... Lab1/laba1.i"
+	@echo "... Lab1/laba1.s"
+	@echo "... Lab1/laba10.o"
+	@echo "... Lab1/laba10.i"
+	@echo "... Lab1/laba10.s"
+	@echo "... Lab1/laba2.o"
+	@echo "... Lab1/laba2.i"
+	@echo "... Lab1/laba2.s"
+	@echo "... Lab1/laba3.o"
+	@echo "... Lab1/laba3.i"
+	@echo "... Lab1/laba3.s"
+	@echo "... Lab1/laba5.o"
+	@echo "... Lab1/laba5.i"
+	@echo "... Lab1/laba5.s"
+	@echo "... Lab1/laba6.o"
+	@echo "... Lab1/laba6.i"
+	@echo "... Lab1/laba6.s"
+	@echo "... Lab1/laba9.o"
+	@echo "... Lab1/laba9.i"
+	@echo "... Lab1/laba9.s"
+	@echo "... Lab2/laba2_1.o"
+	@echo "... Lab2/laba2_1.i"
+	@echo "... Lab2/laba2_1.s"
+	@echo "... Lab2/laba2_10.o"
+	@echo "... Lab2/laba2_10.i"
+	@echo "... Lab2/laba2_10.s"
+	@echo "... Lab2/laba2_2.o"
+	@echo "... Lab2/laba2_2.i"
+	@echo "... Lab2/laba2_2.s"
+	@echo "... Lab2/laba2_3.o"
+	@echo "... Lab2/laba2_3.i"
+	@echo "... Lab2/laba2_3.s"
+	@echo "... Lab2/laba2_4.o"
+	@echo "... Lab2/laba2_4.i"
+	@echo "... Lab2/laba2_4.s"
+	@echo "... Lab2/laba2_7.o"
+	@echo "... Lab2/laba2_7.i"
+	@echo "... Lab2/laba2_7.s"
+	@echo "... Lab2/laba2_8.o"
+	@echo "... Lab2/laba2_8.i"
+	@echo "... Lab2/laba2_8.s"
+	@echo "... Lab3/lab10/laba3_10.o"
+	@echo "... Lab3/lab10/laba3_10.i"
+	@echo "... Lab3/lab10/laba3_10.s"
+	@echo "... Lab3/lab3/laba3_3.o"
+	@echo "... Lab3/lab3/laba3_3.i"
+	@echo "... Lab3/lab3/laba3_3.s"
+	@echo "... Lab3/laba3_1.o"
+	@echo "... Lab3/laba3_1.i"
+	@echo "... Lab3/laba3_1.s"
+	@echo "... Lab3/laba3_2.o"
+	@echo "... Lab3/laba3_2.i"
+	@echo "... Lab3/laba3_2.s"
+	@echo "... to_test_smth.o"
+	@echo "... to_test_smth.i"
+	@echo "... to_test_smth.s"
 .PHONY : help
 
 

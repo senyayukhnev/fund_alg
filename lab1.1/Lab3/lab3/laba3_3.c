@@ -212,21 +212,21 @@ int get_Emp(FILE *input, Employee* employee, int* ch) {
                     if (!isfinite(employee->salary)) {
                         while (*ch != '\n' && *ch != EOF) *ch = fgetc(input);
                         *ch = fgetc(input);
-                        return Incorrect_salary; // Проверка переполнения
+                        return Overflow; // Проверка переполнения
                     }
                     employee->salary = employee->salary * 10 + (*ch - '0');
                     if (f) after_dot++;
                 } else {
-                    while (*ch != '\n' && *ch != EOF) *ch = fgetc(input);
+                    while (*ch != '\n' && *ch != EOF && *ch != '\0') *ch = fgetc(input);
                     *ch = fgetc(input);
                     return Incorrect_salary;
                 }
                 *ch = fgetc(input);
             }
-            if (after_dot > 0) {
+            if (after_dot > 0.0) {
                 employee->salary /= pow(10, after_dot);
             }
-            if (employee->salary < 0.0) return Incorrect_salary; // Проверка на отрицательность и нулевое значение
+            if (employee->salary < 0.0) return Incorrect_salary; // Проверка на отрицательность
             next_lexem(ch, input);
             count_of_lex++;
         }

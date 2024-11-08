@@ -143,17 +143,14 @@ TreeNode* parseTree(const char* str, int* index) {
     while (str[*index] == ' ') (*index)++;
     if (str[*index] == '\0' || str[*index] == ')') return NULL;
 
-    // Создаем текущий узел
     TreeNode* node = createNode(str[*index]);
     if (node == NULL) return NULL;
     (*index)++;
 
-    // Если следующий символ - '(', значит, есть дети
     if (str[*index] == '(') {
         (*index)++;
         node->firstChild = parseTree(str, index);
 
-        // После обработки детей, если есть запятые, обрабатываем каждого брата
         TreeNode* sibling = node->firstChild;
         while (str[*index] == ',') {
             (*index)++;
@@ -161,7 +158,6 @@ TreeNode* parseTree(const char* str, int* index) {
             sibling = sibling->nextSibling;
         }
 
-        // Пропускаем закрывающую скобку ')', если она есть
         if (str[*index] == ')') (*index)++;
     }
 
