@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target laba1.c
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/senya/CLionProjects/lab1.1/cmake-build-debug/
 
 build cmake_object_order_depends_target_laba1.c: phony || .
 
-build CMakeFiles/laba1.c.dir/Lab1/laba1.c.obj: C_COMPILER__laba1.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba1.c || cmake_object_order_depends_target_laba1.c
+build CMakeFiles/laba1.c.dir/Lab1/laba1.c.obj: C_COMPILER__laba1.2ec_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba1.c || cmake_object_order_depends_target_laba1.c
   DEP_FILE = CMakeFiles\laba1.c.dir\Lab1\laba1.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba1.c.dir
@@ -82,7 +82,7 @@ build laba1.c.exe: C_EXECUTABLE_LINKER__laba1.2ec_Debug CMakeFiles/laba1.c.dir/L
 
 build cmake_object_order_depends_target_laba2: phony || .
 
-build CMakeFiles/laba2.dir/Lab1/laba2.c.obj: C_COMPILER__laba2_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba2.c || cmake_object_order_depends_target_laba2
+build CMakeFiles/laba2.dir/Lab1/laba2.c.obj: C_COMPILER__laba2_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba2.c || cmake_object_order_depends_target_laba2
   DEP_FILE = CMakeFiles\laba2.dir\Lab1\laba2.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2.dir
@@ -115,7 +115,7 @@ build laba2.exe: C_EXECUTABLE_LINKER__laba2_Debug CMakeFiles/laba2.dir/Lab1/laba
 
 build cmake_object_order_depends_target_laba6.c: phony || .
 
-build CMakeFiles/laba6.c.dir/Lab1/laba6.c.obj: C_COMPILER__laba6.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba6.c || cmake_object_order_depends_target_laba6.c
+build CMakeFiles/laba6.c.dir/Lab1/laba6.c.obj: C_COMPILER__laba6.2ec_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba6.c || cmake_object_order_depends_target_laba6.c
   DEP_FILE = CMakeFiles\laba6.c.dir\Lab1\laba6.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba6.c.dir
@@ -148,7 +148,7 @@ build laba6.c.exe: C_EXECUTABLE_LINKER__laba6.2ec_Debug CMakeFiles/laba6.c.dir/L
 
 build cmake_object_order_depends_target_laba5.c: phony || .
 
-build CMakeFiles/laba5.c.dir/Lab1/laba5.c.obj: C_COMPILER__laba5.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba5.c || cmake_object_order_depends_target_laba5.c
+build CMakeFiles/laba5.c.dir/Lab1/laba5.c.obj: C_COMPILER__laba5.2ec_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba5.c || cmake_object_order_depends_target_laba5.c
   DEP_FILE = CMakeFiles\laba5.c.dir\Lab1\laba5.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba5.c.dir
@@ -181,7 +181,7 @@ build laba5.c.exe: C_EXECUTABLE_LINKER__laba5.2ec_Debug CMakeFiles/laba5.c.dir/L
 
 build cmake_object_order_depends_target_laba3.c: phony || .
 
-build CMakeFiles/laba3.c.dir/Lab1/laba3.c.obj: C_COMPILER__laba3.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba3.c || cmake_object_order_depends_target_laba3.c
+build CMakeFiles/laba3.c.dir/Lab1/laba3.c.obj: C_COMPILER__laba3.2ec_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba3.c || cmake_object_order_depends_target_laba3.c
   DEP_FILE = CMakeFiles\laba3.c.dir\Lab1\laba3.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3.c.dir
@@ -214,7 +214,7 @@ build laba3.c.exe: C_EXECUTABLE_LINKER__laba3.2ec_Debug CMakeFiles/laba3.c.dir/L
 
 build cmake_object_order_depends_target_another6: phony || .
 
-build CMakeFiles/another6.dir/to_test_smth.c.obj: C_COMPILER__another6_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/to_test_smth.c || cmake_object_order_depends_target_another6
+build CMakeFiles/another6.dir/to_test_smth.c.obj: C_COMPILER__another6_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/to_test_smth.c || cmake_object_order_depends_target_another6
   DEP_FILE = CMakeFiles\another6.dir\to_test_smth.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\another6.dir
@@ -247,7 +247,7 @@ build another6.exe: C_EXECUTABLE_LINKER__another6_Debug CMakeFiles/another6.dir/
 
 build cmake_object_order_depends_target_laba4: phony || .
 
-build CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.obj: C_COMPILER__laba4_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/lab4/laba4.c || cmake_object_order_depends_target_laba4
+build CMakeFiles/laba4.dir/Lab1/lab4/laba4.c.obj: C_COMPILER__laba4_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/lab4/laba4.c || cmake_object_order_depends_target_laba4
   DEP_FILE = CMakeFiles\laba4.dir\Lab1\lab4\laba4.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba4.dir
@@ -280,7 +280,7 @@ build laba4.exe: C_EXECUTABLE_LINKER__laba4_Debug CMakeFiles/laba4.dir/Lab1/lab4
 
 build cmake_object_order_depends_target_laba7: phony || .
 
-build CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.obj: C_COMPILER__laba7_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/lab7/laba7.c || cmake_object_order_depends_target_laba7
+build CMakeFiles/laba7.dir/Lab1/lab7/laba7.c.obj: C_COMPILER__laba7_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/lab7/laba7.c || cmake_object_order_depends_target_laba7
   DEP_FILE = CMakeFiles\laba7.dir\Lab1\lab7\laba7.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba7.dir
@@ -313,7 +313,7 @@ build laba7.exe: C_EXECUTABLE_LINKER__laba7_Debug CMakeFiles/laba7.dir/Lab1/lab7
 
 build cmake_object_order_depends_target_laba8: phony || .
 
-build CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.obj: C_COMPILER__laba8_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/lab8/laba8.c || cmake_object_order_depends_target_laba8
+build CMakeFiles/laba8.dir/Lab1/lab8/laba8.c.obj: C_COMPILER__laba8_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/lab8/laba8.c || cmake_object_order_depends_target_laba8
   DEP_FILE = CMakeFiles\laba8.dir\Lab1\lab8\laba8.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba8.dir
@@ -346,7 +346,7 @@ build laba8.exe: C_EXECUTABLE_LINKER__laba8_Debug CMakeFiles/laba8.dir/Lab1/lab8
 
 build cmake_object_order_depends_target_laba9: phony || .
 
-build CMakeFiles/laba9.dir/Lab1/laba9.c.obj: C_COMPILER__laba9_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba9.c || cmake_object_order_depends_target_laba9
+build CMakeFiles/laba9.dir/Lab1/laba9.c.obj: C_COMPILER__laba9_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba9.c || cmake_object_order_depends_target_laba9
   DEP_FILE = CMakeFiles\laba9.dir\Lab1\laba9.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba9.dir
@@ -379,7 +379,7 @@ build laba9.exe: C_EXECUTABLE_LINKER__laba9_Debug CMakeFiles/laba9.dir/Lab1/laba
 
 build cmake_object_order_depends_target_laba10: phony || .
 
-build CMakeFiles/laba10.dir/Lab1/laba10.c.obj: C_COMPILER__laba10_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab1/laba10.c || cmake_object_order_depends_target_laba10
+build CMakeFiles/laba10.dir/Lab1/laba10.c.obj: C_COMPILER__laba10_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab1/laba10.c || cmake_object_order_depends_target_laba10
   DEP_FILE = CMakeFiles\laba10.dir\Lab1\laba10.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba10.dir
@@ -412,7 +412,7 @@ build laba10.exe: C_EXECUTABLE_LINKER__laba10_Debug CMakeFiles/laba10.dir/Lab1/l
 
 build cmake_object_order_depends_target_laba2_7: phony || .
 
-build CMakeFiles/laba2_7.dir/Lab2/laba2_7.c.obj: C_COMPILER__laba2_7_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_7.c || cmake_object_order_depends_target_laba2_7
+build CMakeFiles/laba2_7.dir/Lab2/laba2_7.c.obj: C_COMPILER__laba2_7_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_7.c || cmake_object_order_depends_target_laba2_7
   DEP_FILE = CMakeFiles\laba2_7.dir\Lab2\laba2_7.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2_7.dir
@@ -445,7 +445,7 @@ build laba2_7.exe: C_EXECUTABLE_LINKER__laba2_7_Debug CMakeFiles/laba2_7.dir/Lab
 
 build cmake_object_order_depends_target_laba2_2: phony || .
 
-build CMakeFiles/laba2_2.dir/Lab2/laba2_2.c.obj: C_COMPILER__laba2_2_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_2.c || cmake_object_order_depends_target_laba2_2
+build CMakeFiles/laba2_2.dir/Lab2/laba2_2.c.obj: C_COMPILER__laba2_2_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_2.c || cmake_object_order_depends_target_laba2_2
   DEP_FILE = CMakeFiles\laba2_2.dir\Lab2\laba2_2.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2_2.dir
@@ -478,7 +478,7 @@ build laba2_2.exe: C_EXECUTABLE_LINKER__laba2_2_Debug CMakeFiles/laba2_2.dir/Lab
 
 build cmake_object_order_depends_target_laba2_1: phony || .
 
-build CMakeFiles/laba2_1.dir/Lab2/laba2_1.c.obj: C_COMPILER__laba2_1_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_1.c || cmake_object_order_depends_target_laba2_1
+build CMakeFiles/laba2_1.dir/Lab2/laba2_1.c.obj: C_COMPILER__laba2_1_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_1.c || cmake_object_order_depends_target_laba2_1
   DEP_FILE = CMakeFiles\laba2_1.dir\Lab2\laba2_1.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2_1.dir
@@ -511,7 +511,7 @@ build laba2_1.exe: C_EXECUTABLE_LINKER__laba2_1_Debug CMakeFiles/laba2_1.dir/Lab
 
 build cmake_object_order_depends_target_laba2_10: phony || .
 
-build CMakeFiles/laba2_10.dir/Lab2/laba2_10.c.obj: C_COMPILER__laba2_10_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_10.c || cmake_object_order_depends_target_laba2_10
+build CMakeFiles/laba2_10.dir/Lab2/laba2_10.c.obj: C_COMPILER__laba2_10_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_10.c || cmake_object_order_depends_target_laba2_10
   DEP_FILE = CMakeFiles\laba2_10.dir\Lab2\laba2_10.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2_10.dir
@@ -544,7 +544,7 @@ build laba2_10.exe: C_EXECUTABLE_LINKER__laba2_10_Debug CMakeFiles/laba2_10.dir/
 
 build cmake_object_order_depends_target_laba2_4: phony || .
 
-build CMakeFiles/laba2_4.dir/Lab2/laba2_4.c.obj: C_COMPILER__laba2_4_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_4.c || cmake_object_order_depends_target_laba2_4
+build CMakeFiles/laba2_4.dir/Lab2/laba2_4.c.obj: C_COMPILER__laba2_4_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_4.c || cmake_object_order_depends_target_laba2_4
   DEP_FILE = CMakeFiles\laba2_4.dir\Lab2\laba2_4.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2_4.dir
@@ -577,7 +577,7 @@ build laba2_4.exe: C_EXECUTABLE_LINKER__laba2_4_Debug CMakeFiles/laba2_4.dir/Lab
 
 build cmake_object_order_depends_target_laba3: phony || .
 
-build CMakeFiles/laba3.dir/Lab2/laba2_3.c.obj: C_COMPILER__laba3_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_3.c || cmake_object_order_depends_target_laba3
+build CMakeFiles/laba3.dir/Lab2/laba2_3.c.obj: C_COMPILER__laba3_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_3.c || cmake_object_order_depends_target_laba3
   DEP_FILE = CMakeFiles\laba3.dir\Lab2\laba2_3.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3.dir
@@ -610,7 +610,7 @@ build laba3.exe: C_EXECUTABLE_LINKER__laba3_Debug CMakeFiles/laba3.dir/Lab2/laba
 
 build cmake_object_order_depends_target_laba2_8: phony || .
 
-build CMakeFiles/laba2_8.dir/Lab2/laba2_8.c.obj: C_COMPILER__laba2_8_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab2/laba2_8.c || cmake_object_order_depends_target_laba2_8
+build CMakeFiles/laba2_8.dir/Lab2/laba2_8.c.obj: C_COMPILER__laba2_8_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab2/laba2_8.c || cmake_object_order_depends_target_laba2_8
   DEP_FILE = CMakeFiles\laba2_8.dir\Lab2\laba2_8.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba2_8.dir
@@ -643,7 +643,7 @@ build laba2_8.exe: C_EXECUTABLE_LINKER__laba2_8_Debug CMakeFiles/laba2_8.dir/Lab
 
 build cmake_object_order_depends_target_laba3_3: phony || .
 
-build CMakeFiles/laba3_3.dir/Lab3/lab3/laba3_3.c.obj: C_COMPILER__laba3_3_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab3/lab3/laba3_3.c || cmake_object_order_depends_target_laba3_3
+build CMakeFiles/laba3_3.dir/Lab3/lab3/laba3_3.c.obj: C_COMPILER__laba3_3_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab3/lab3/laba3_3.c || cmake_object_order_depends_target_laba3_3
   DEP_FILE = CMakeFiles\laba3_3.dir\Lab3\lab3\laba3_3.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3_3.dir
@@ -676,7 +676,7 @@ build laba3_3.exe: C_EXECUTABLE_LINKER__laba3_3_Debug CMakeFiles/laba3_3.dir/Lab
 
 build cmake_object_order_depends_target_laba3_1: phony || .
 
-build CMakeFiles/laba3_1.dir/Lab3/laba3_1.c.obj: C_COMPILER__laba3_1_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab3/laba3_1.c || cmake_object_order_depends_target_laba3_1
+build CMakeFiles/laba3_1.dir/Lab3/laba3_1.c.obj: C_COMPILER__laba3_1_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab3/laba3_1.c || cmake_object_order_depends_target_laba3_1
   DEP_FILE = CMakeFiles\laba3_1.dir\Lab3\laba3_1.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3_1.dir
@@ -709,7 +709,7 @@ build laba3_1.exe: C_EXECUTABLE_LINKER__laba3_1_Debug CMakeFiles/laba3_1.dir/Lab
 
 build cmake_object_order_depends_target_laba3_10: phony || .
 
-build CMakeFiles/laba3_10.dir/Lab3/lab10/laba3_10.c.obj: C_COMPILER__laba3_10_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab3/lab10/laba3_10.c || cmake_object_order_depends_target_laba3_10
+build CMakeFiles/laba3_10.dir/Lab3/lab10/laba3_10.c.obj: C_COMPILER__laba3_10_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab3/lab10/laba3_10.c || cmake_object_order_depends_target_laba3_10
   DEP_FILE = CMakeFiles\laba3_10.dir\Lab3\lab10\laba3_10.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3_10.dir
@@ -742,7 +742,7 @@ build laba3_10.exe: C_EXECUTABLE_LINKER__laba3_10_Debug CMakeFiles/laba3_10.dir/
 
 build cmake_object_order_depends_target_laba3_2: phony || .
 
-build CMakeFiles/laba3_2.dir/Lab3/laba3_2.c.obj: C_COMPILER__laba3_2_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab3/laba3_2.c || cmake_object_order_depends_target_laba3_2
+build CMakeFiles/laba3_2.dir/Lab3/laba3_2.c.obj: C_COMPILER__laba3_2_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab3/laba3_2.c || cmake_object_order_depends_target_laba3_2
   DEP_FILE = CMakeFiles\laba3_2.dir\Lab3\laba3_2.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3_2.dir
@@ -767,39 +767,6 @@ build laba3_2.exe: C_EXECUTABLE_LINKER__laba3_2_Debug CMakeFiles/laba3_2.dir/Lab
   TARGET_PDB = laba3_2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target main.c
-
-
-#############################################
-# Order-only phony target for main.c
-
-build cmake_object_order_depends_target_main.c: phony || .
-
-build CMakeFiles/main.c.dir/test/main.c.obj: C_COMPILER__main.2ec_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/test/main.c || cmake_object_order_depends_target_main.c
-  DEP_FILE = CMakeFiles\main.c.dir\test\main.c.obj.d
-  FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.c.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.c.dir\test
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target main.c
-
-
-#############################################
-# Link the executable main.c.exe
-
-build main.c.exe: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/test/main.c.obj
-  FLAGS = -D_POSIX_C_SOURCE=200809L -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.c.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = main.c.exe
-  TARGET_IMPLIB = libmain.c.dll.a
-  TARGET_PDB = main.c.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target laba3_5
 
 
@@ -808,7 +775,7 @@ build main.c.exe: C_EXECUTABLE_LINKER__main.2ec_Debug CMakeFiles/main.c.dir/test
 
 build cmake_object_order_depends_target_laba3_5: phony || .
 
-build CMakeFiles/laba3_5.dir/Lab3/lab5/laba3_5.c.obj: C_COMPILER__laba3_5_unscanned_Debug C$:/Users/senya/CLionProjects/lab1.1/Lab3/lab5/laba3_5.c || cmake_object_order_depends_target_laba3_5
+build CMakeFiles/laba3_5.dir/Lab3/lab5/laba3_5.c.obj: C_COMPILER__laba3_5_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab3/lab5/laba3_5.c || cmake_object_order_depends_target_laba3_5
   DEP_FILE = CMakeFiles\laba3_5.dir\Lab3\lab5\laba3_5.c.obj.d
   FLAGS = -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\laba3_5.dir
@@ -832,12 +799,45 @@ build laba3_5.exe: C_EXECUTABLE_LINKER__laba3_5_Debug CMakeFiles/laba3_5.dir/Lab
   TARGET_IMPLIB = liblaba3_5.dll.a
   TARGET_PDB = laba3_5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab5_2
+
+
+#############################################
+# Order-only phony target for lab5_2
+
+build cmake_object_order_depends_target_lab5_2: phony || .
+
+build CMakeFiles/lab5_2.dir/Lab5/lab2/lab5_2.cpp.obj: CXX_COMPILER__lab5_2_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab5/lab2/lab5_2.cpp || cmake_object_order_depends_target_lab5_2
+  DEP_FILE = CMakeFiles\lab5_2.dir\Lab5\lab2\lab5_2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab5_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab5_2.dir\Lab5\lab2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab5_2
+
+
+#############################################
+# Link the executable lab5_2.exe
+
+build lab5_2.exe: CXX_EXECUTABLE_LINKER__lab5_2_Debug CMakeFiles/lab5_2.dir/Lab5/lab2/lab5_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab5_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab5_2.exe
+  TARGET_IMPLIB = liblab5_2.dll.a
+  TARGET_PDB = lab5_2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\senya\CLionProjects\lab1.1\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Алсений\CLionProjects\fund_alg\lab1.1\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -848,7 +848,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\senya\CLionProjects\lab1.1\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\senya\CLionProjects\lab1.1 -BC:\Users\senya\CLionProjects\lab1.1\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\Алсений\CLionProjects\fund_alg\lab1.1\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\Алсений\CLionProjects\fund_alg\lab1.1 -BC:\Users\Алсений\CLionProjects\fund_alg\lab1.1\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -859,6 +859,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Target aliases.
 
 build another6: phony another6.exe
+
+build lab5_2: phony lab5_2.exe
 
 build laba1.c: phony laba1.c.exe
 
@@ -904,17 +906,15 @@ build laba8: phony laba8.exe
 
 build laba9: phony laba9.exe
 
-build main.c: phony main.c.exe
-
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/senya/CLionProjects/lab1.1/cmake-build-debug
+# Folder: C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug
 
-build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe laba2_1.exe laba2_10.exe laba2_4.exe laba3.exe laba2_8.exe laba3_3.exe laba3_1.exe laba3_10.exe laba3_2.exe main.c.exe laba3_5.exe
+build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe laba2_1.exe laba2_10.exe laba2_4.exe laba3.exe laba2_8.exe laba3_3.exe laba3_1.exe laba3_10.exe laba3_2.exe laba3_5.exe lab5_2.exe
 
 # =============================================================================
 # Built-in targets
@@ -923,14 +923,14 @@ build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe anoth
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/senya/CLionProjects/lab1.1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/senya/CLionProjects/lab1.1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################

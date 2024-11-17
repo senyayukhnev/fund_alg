@@ -1,9 +1,11 @@
 cmake_minimum_required(VERSION 3.28.3)
-project(lab1_1 C)
+project(lab1_1 C CXX)
 
 set(CMAKE_C_STANDARD 11)
 
 add_executable(laba1.c
+        Lab1/laba1.c
+        Lab1/laba1.c
         Lab1/laba1.c
 )
 add_executable(laba2 Lab1/laba2.c)
@@ -32,5 +34,6 @@ add_executable(laba3_10 Lab3/lab10/laba3_10.c)
 add_executable(laba3_2 Lab3/laba3_2.c)
 
 target_link_libraries(laba3_3 m)
-add_executable(main.c test/main.c)
 add_executable(laba3_5 Lab3/lab5/laba3_5.c)
+add_executable(lab5_2 Lab5/lab2/lab5_2.cpp
+        Lab5/lab2/lab5_2.cpp)
