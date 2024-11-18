@@ -35,5 +35,5 @@ add_executable(laba3_2 Lab3/laba3_2.c)
 
 target_link_libraries(laba3_3 m)
 add_executable(laba3_5 Lab3/lab5/laba3_5.c)
-add_executable(lab5_2 Lab5/lab2/lab5_2.cpp
-        Lab5/lab2/lab5_2.cpp)
+add_executable(lab5_2 Lab5/lab2/lab5_2.cpp)
+add_executable(lab5_1 Lab5/laba5_1.cpp)

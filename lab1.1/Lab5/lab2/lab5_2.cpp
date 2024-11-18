@@ -35,7 +35,7 @@ private:
         }
     }
 public:
-    Encoder(const vector<byte>& key_to_init) : key(key_to_init){}
+    explicit Encoder(const vector<byte>& key_to_init) : key(key_to_init){}
 
     void set_new_key(vector<byte>& new_key){
         key = new_key;
@@ -44,11 +44,11 @@ public:
     void encode(const string& input_file, const string& output_file, bool encrypt){
         ifstream inputFile(input_file, ios::binary); // обработать потенциальные ошибки
         if (!inputFile.is_open()) {
-            throw std::runtime_error("Не удалось открыть входной файл.");
+            throw runtime_error("Cannot open input file");
         }
         ofstream outputFile(output_file, ios::binary); // обработать потенциальные ошибки
         if (!outputFile.is_open()) {
-            throw std::runtime_error("Не удалось открыть выходной файл.");
+            throw runtime_error("Cannot open output file");
         }
         vector<uint8_t> inputData((istreambuf_iterator<char>(inputFile)), istreambuf_iterator<char>());
         inputFile.close();
@@ -64,7 +64,7 @@ public:
 int main() {
     try {
         // Example key
-        vector<byte> key = {byte(0x01), byte(0x02), byte(0x03), byte(0x04)};
+        vector<byte> key = {byte('K'), byte('E'), byte('Y'), byte('!')};
 
         // Create encoder instance
         Encoder encoder(key);
@@ -75,9 +75,9 @@ int main() {
         // Decrypt the file
         encoder.encode("encrypted.txt", "decrypted.txt", false);
 
-        cout << "Encryption and decryption completed successfully." << std::endl;
+        cout << "Encryption and decryption completed successfully." << endl;
     } catch (const exception& e) {
-        cerr << "Error: " << e.what() << std::endl;
+        cerr << "Error: " << e.what() << endl;
     }
 
     return 0;

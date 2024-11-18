@@ -38,7 +38,8 @@
 						20,
 						21,
 						22,
-						23
+						23,
+						24
 					]
 				}
 			],
@@ -76,7 +77,8 @@
 						20,
 						21,
 						22,
-						23
+						23,
+						24
 					]
 				}
 			],
@@ -87,6 +89,13 @@
 					"id" : "another6::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-another6-Debug-5be21d16687e75df7b56.json",
 					"name" : "another6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab5_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab5_1-Debug-270b1403a67e86897c04.json",
+					"name" : "lab5_1",
 					"projectIndex" : 0
 				},
 				{
