@@ -11,7 +11,7 @@ private:
     int num;
 
     static int decrement(int n) {                 //00000100
-        int mask = 1;                             //00000001
+        long long int mask = 1;                   //00000001
         while ((n & mask) == 0) {                 //00000000 // 00000000 // выход из цикла
             n = n ^ mask;                         //00000101 // 00000111
             mask <<= 1;                           //00000010 // 00000100
@@ -170,8 +170,8 @@ public:
 
 int main() {
         // Создание объектов binary_int
-        binary_int a(numeric_limits<int>::max() / 2 + 1);
-        binary_int b(4);
+        binary_int a(6);
+        binary_int b(1);
     try {
         // Демонстрация операторов инкремента и декремента
         cout << "a: " << a.get_num() << endl;
