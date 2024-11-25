@@ -40,7 +40,8 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26
 					]
 				}
 			],
@@ -80,7 +81,8 @@
 						22,
 						23,
 						24,
-						25
+						25,
+						26
 					]
 				}
 			],
@@ -231,6 +233,13 @@
 					"id" : "laba5.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-laba5.c-Debug-e340f5c8792f187dd3d3.json",
 					"name" : "laba5.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "laba5_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laba5_3-Debug-7a2d5011c52d5e321c29.json",
+					"name" : "laba5_3",
 					"projectIndex" : 0
 				},
 				{

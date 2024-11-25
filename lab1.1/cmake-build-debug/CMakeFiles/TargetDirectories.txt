@@ -24,5 +24,6 @@ C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFil
 C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFiles/lab5_2.dir
 C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFiles/lab5_1.dir
 C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFiles/laba5_4.dir
+C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFiles/laba5_3.dir
 C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

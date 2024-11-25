@@ -898,6 +898,39 @@ build laba5_4.exe: CXX_EXECUTABLE_LINKER__laba5_4_Debug CMakeFiles/laba5_4.dir/L
   TARGET_IMPLIB = liblaba5_4.dll.a
   TARGET_PDB = laba5_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target laba5_3
+
+
+#############################################
+# Order-only phony target for laba5_3
+
+build cmake_object_order_depends_target_laba5_3: phony || .
+
+build CMakeFiles/laba5_3.dir/Lab5/laba5_3.cpp.obj: CXX_COMPILER__laba5_3_unscanned_Debug C$:/Users/Алсений/CLionProjects/fund_alg/lab1.1/Lab5/laba5_3.cpp || cmake_object_order_depends_target_laba5_3
+  DEP_FILE = CMakeFiles\laba5_3.dir\Lab5\laba5_3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\laba5_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\laba5_3.dir\Lab5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target laba5_3
+
+
+#############################################
+# Link the executable laba5_3.exe
+
+build laba5_3.exe: CXX_EXECUTABLE_LINKER__laba5_3_Debug CMakeFiles/laba5_3.dir/Lab5/laba5_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\laba5_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = laba5_3.exe
+  TARGET_IMPLIB = liblaba5_3.dll.a
+  TARGET_PDB = laba5_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -966,6 +999,8 @@ build laba4: phony laba4.exe
 
 build laba5.c: phony laba5.c.exe
 
+build laba5_3: phony laba5_3.exe
+
 build laba5_4: phony laba5_4.exe
 
 build laba6.c: phony laba6.c.exe
@@ -984,7 +1019,7 @@ build laba9: phony laba9.exe
 #############################################
 # Folder: C:/Users/Алсений/CLionProjects/fund_alg/lab1.1/cmake-build-debug
 
-build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe laba2_1.exe laba2_10.exe laba2_4.exe laba3.exe laba2_8.exe laba3_3.exe laba3_1.exe laba3_10.exe laba3_2.exe laba3_5.exe lab5_2.exe lab5_1.exe laba5_4.exe
+build all: phony laba1.c.exe laba2.exe laba6.c.exe laba5.c.exe laba3.c.exe another6.exe laba4.exe laba7.exe laba8.exe laba9.exe laba10.exe laba2_7.exe laba2_2.exe laba2_1.exe laba2_10.exe laba2_4.exe laba3.exe laba2_8.exe laba3_3.exe laba3_1.exe laba3_10.exe laba3_2.exe laba3_5.exe lab5_2.exe lab5_1.exe laba5_4.exe laba5_3.exe
 
 # =============================================================================
 # Built-in targets
