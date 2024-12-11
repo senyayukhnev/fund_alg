@@ -1,0 +1,1 @@
+/usr/bin/cc -g "CMakeFiles/posix_ipc-example-server.c.dir/example/posix_ipc-example-server.c.o" -o posix_ipc-example-server.c 

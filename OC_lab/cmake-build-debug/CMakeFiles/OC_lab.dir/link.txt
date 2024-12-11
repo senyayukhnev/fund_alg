@@ -1,0 +1,1 @@
+/usr/bin/cc -g "CMakeFiles/OC_lab.dir/example/posix_ipc-example-client.c.o" -o OC_lab 

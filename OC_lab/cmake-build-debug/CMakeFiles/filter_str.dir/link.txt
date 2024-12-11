@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/filter_str.dir/lab1/filter_str.c.o -o filter_str 

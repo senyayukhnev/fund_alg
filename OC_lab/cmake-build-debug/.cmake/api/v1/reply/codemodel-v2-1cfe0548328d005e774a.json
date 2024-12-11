@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OC_lab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OC_lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OC_lab-Debug-caaa0af0863397f6cea8.json",
+					"name" : "OC_lab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filter_str::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter_str-Debug-2ce288139898060d2df3.json",
+					"name" : "filter_str",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "posix_ipc-example-server.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-posix_ipc-example-server.c-Debug-91a9125541c62375b501.json",
+					"name" : "posix_ipc-example-server.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server_lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server_lab-Debug-450d68feaa8933d46dbf.json",
+					"name" : "server_lab",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug",
+		"source" : "/mnt/c/Users/senya/CLionProjects/OC_lab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
