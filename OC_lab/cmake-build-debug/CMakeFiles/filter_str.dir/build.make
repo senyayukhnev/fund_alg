@@ -69,28 +69,28 @@ include CMakeFiles/filter_str.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/filter_str.dir/flags.make
 
-CMakeFiles/filter_str.dir/lab1/filter_str.c.o: CMakeFiles/filter_str.dir/flags.make
-CMakeFiles/filter_str.dir/lab1/filter_str.c.o: /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/filter_str.c
-CMakeFiles/filter_str.dir/lab1/filter_str.c.o: CMakeFiles/filter_str.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filter_str.dir/lab1/filter_str.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/filter_str.dir/lab1/filter_str.c.o -MF CMakeFiles/filter_str.dir/lab1/filter_str.c.o.d -o CMakeFiles/filter_str.dir/lab1/filter_str.c.o -c /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/filter_str.c
+CMakeFiles/filter_str.dir/lab1/parent.c.o: CMakeFiles/filter_str.dir/flags.make
+CMakeFiles/filter_str.dir/lab1/parent.c.o: /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/parent.c
+CMakeFiles/filter_str.dir/lab1/parent.c.o: CMakeFiles/filter_str.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/filter_str.dir/lab1/parent.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/filter_str.dir/lab1/parent.c.o -MF CMakeFiles/filter_str.dir/lab1/parent.c.o.d -o CMakeFiles/filter_str.dir/lab1/parent.c.o -c /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/parent.c
 
-CMakeFiles/filter_str.dir/lab1/filter_str.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/filter_str.dir/lab1/filter_str.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/filter_str.c > CMakeFiles/filter_str.dir/lab1/filter_str.c.i
+CMakeFiles/filter_str.dir/lab1/parent.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/filter_str.dir/lab1/parent.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/parent.c > CMakeFiles/filter_str.dir/lab1/parent.c.i
 
-CMakeFiles/filter_str.dir/lab1/filter_str.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/filter_str.dir/lab1/filter_str.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/filter_str.c -o CMakeFiles/filter_str.dir/lab1/filter_str.c.s
+CMakeFiles/filter_str.dir/lab1/parent.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/filter_str.dir/lab1/parent.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/parent.c -o CMakeFiles/filter_str.dir/lab1/parent.c.s
 
 # Object files for target filter_str
 filter_str_OBJECTS = \
-"CMakeFiles/filter_str.dir/lab1/filter_str.c.o"
+"CMakeFiles/filter_str.dir/lab1/parent.c.o"
 
 # External object files for target filter_str
 filter_str_EXTERNAL_OBJECTS =
 
-filter_str: CMakeFiles/filter_str.dir/lab1/filter_str.c.o
+filter_str: CMakeFiles/filter_str.dir/lab1/parent.c.o
 filter_str: CMakeFiles/filter_str.dir/build.make
 filter_str: CMakeFiles/filter_str.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable filter_str"

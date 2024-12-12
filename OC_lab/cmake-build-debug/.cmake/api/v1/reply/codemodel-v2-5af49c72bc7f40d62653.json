@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -51,8 +53,15 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "child2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-child2-Debug-83e9a7166122f0607804.json",
+					"name" : "child2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "filter_str::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-filter_str-Debug-2ce288139898060d2df3.json",
+					"jsonFile" : "target-filter_str-Debug-3670da42eaad1a1d95b4.json",
 					"name" : "filter_str",
 					"projectIndex" : 0
 				},
@@ -66,7 +75,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "server_lab::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-server_lab-Debug-450d68feaa8933d46dbf.json",
+					"jsonFile" : "target-server_lab-Debug-f02af7f6954b25b21bb0.json",
 					"name" : "server_lab",
 					"projectIndex" : 0
 				}

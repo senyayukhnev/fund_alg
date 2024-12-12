@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/filter_str.dir/lab1/filter_str.c.o"
-  "CMakeFiles/filter_str.dir/lab1/filter_str.c.o.d"
+  "CMakeFiles/filter_str.dir/lab1/parent.c.o"
+  "CMakeFiles/filter_str.dir/lab1/parent.c.o.d"
   "filter_str"
   "filter_str.pdb"
 )

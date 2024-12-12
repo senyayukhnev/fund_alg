@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/child2.dir/lab1/child2.c.o -o child2 

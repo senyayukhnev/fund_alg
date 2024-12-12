@@ -67,6 +67,7 @@ all: CMakeFiles/OC_lab.dir/all
 all: CMakeFiles/posix_ipc-example-server.c.dir/all
 all: CMakeFiles/server_lab.dir/all
 all: CMakeFiles/filter_str.dir/all
+all: CMakeFiles/child2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +79,7 @@ clean: CMakeFiles/OC_lab.dir/clean
 clean: CMakeFiles/posix_ipc-example-server.c.dir/clean
 clean: CMakeFiles/server_lab.dir/clean
 clean: CMakeFiles/filter_str.dir/clean
+clean: CMakeFiles/child2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -113,7 +115,7 @@ CMakeFiles/OC_lab.dir/clean:
 CMakeFiles/posix_ipc-example-server.c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/posix_ipc-example-server.c.dir/build.make CMakeFiles/posix_ipc-example-server.c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/posix_ipc-example-server.c.dir/build.make CMakeFiles/posix_ipc-example-server.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target posix_ipc-example-server.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target posix_ipc-example-server.c"
 .PHONY : CMakeFiles/posix_ipc-example-server.c.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,7 +141,7 @@ CMakeFiles/posix_ipc-example-server.c.dir/clean:
 CMakeFiles/server_lab.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_lab.dir/build.make CMakeFiles/server_lab.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_lab.dir/build.make CMakeFiles/server_lab.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target server_lab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target server_lab"
 .PHONY : CMakeFiles/server_lab.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +167,7 @@ CMakeFiles/server_lab.dir/clean:
 CMakeFiles/filter_str.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target filter_str"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target filter_str"
 .PHONY : CMakeFiles/filter_str.dir/all
 
 # Build rule for subdir invocation for target.
@@ -183,6 +185,32 @@ filter_str: CMakeFiles/filter_str.dir/rule
 CMakeFiles/filter_str.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/clean
 .PHONY : CMakeFiles/filter_str.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/child2.dir
+
+# All Build rule for target.
+CMakeFiles/child2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target child2"
+.PHONY : CMakeFiles/child2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/child2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/child2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/child2.dir/rule
+
+# Convenience name for target.
+child2: CMakeFiles/child2.dir/rule
+.PHONY : child2
+
+# clean rule for target.
+CMakeFiles/child2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/clean
+.PHONY : CMakeFiles/child2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

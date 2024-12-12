@@ -69,28 +69,28 @@ include CMakeFiles/server_lab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/server_lab.dir/flags.make
 
-CMakeFiles/server_lab.dir/lab1/server_lab.c.o: CMakeFiles/server_lab.dir/flags.make
-CMakeFiles/server_lab.dir/lab1/server_lab.c.o: /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/server_lab.c
-CMakeFiles/server_lab.dir/lab1/server_lab.c.o: CMakeFiles/server_lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/server_lab.dir/lab1/server_lab.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server_lab.dir/lab1/server_lab.c.o -MF CMakeFiles/server_lab.dir/lab1/server_lab.c.o.d -o CMakeFiles/server_lab.dir/lab1/server_lab.c.o -c /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/server_lab.c
+CMakeFiles/server_lab.dir/lab1/child1.c.o: CMakeFiles/server_lab.dir/flags.make
+CMakeFiles/server_lab.dir/lab1/child1.c.o: /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/child1.c
+CMakeFiles/server_lab.dir/lab1/child1.c.o: CMakeFiles/server_lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/server_lab.dir/lab1/child1.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/server_lab.dir/lab1/child1.c.o -MF CMakeFiles/server_lab.dir/lab1/child1.c.o.d -o CMakeFiles/server_lab.dir/lab1/child1.c.o -c /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/child1.c
 
-CMakeFiles/server_lab.dir/lab1/server_lab.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/server_lab.dir/lab1/server_lab.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/server_lab.c > CMakeFiles/server_lab.dir/lab1/server_lab.c.i
+CMakeFiles/server_lab.dir/lab1/child1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/server_lab.dir/lab1/child1.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/child1.c > CMakeFiles/server_lab.dir/lab1/child1.c.i
 
-CMakeFiles/server_lab.dir/lab1/server_lab.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/server_lab.dir/lab1/server_lab.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/server_lab.c -o CMakeFiles/server_lab.dir/lab1/server_lab.c.s
+CMakeFiles/server_lab.dir/lab1/child1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/server_lab.dir/lab1/child1.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/senya/CLionProjects/OC_lab/lab1/child1.c -o CMakeFiles/server_lab.dir/lab1/child1.c.s
 
 # Object files for target server_lab
 server_lab_OBJECTS = \
-"CMakeFiles/server_lab.dir/lab1/server_lab.c.o"
+"CMakeFiles/server_lab.dir/lab1/child1.c.o"
 
 # External object files for target server_lab
 server_lab_EXTERNAL_OBJECTS =
 
-server_lab: CMakeFiles/server_lab.dir/lab1/server_lab.c.o
+server_lab: CMakeFiles/server_lab.dir/lab1/child1.c.o
 server_lab: CMakeFiles/server_lab.dir/build.make
 server_lab: CMakeFiles/server_lab.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable server_lab"

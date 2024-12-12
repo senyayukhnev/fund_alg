@@ -2,5 +2,6 @@
 /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles/posix_ipc-example-server.c.dir
 /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles/server_lab.dir
 /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles/filter_str.dir
+/mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles/child2.dir
 /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/senya/CLionProjects/OC_lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir

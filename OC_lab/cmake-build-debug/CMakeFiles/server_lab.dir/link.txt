@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/server_lab.dir/lab1/server_lab.c.o -o server_lab 
+/usr/bin/cc -g CMakeFiles/server_lab.dir/lab1/child1.c.o -o server_lab 
