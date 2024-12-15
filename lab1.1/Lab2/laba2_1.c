@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include "limits.h"
 typedef enum errorCodes{
     Not_enough_arg,
     Too_many_arg,
@@ -24,6 +25,9 @@ errorCodes convert_str_to_int(char* num_str, unsigned int* out_num){
     for (int j = 0; num_str[j]; j++){
         char character = num_str[j];
         if (character >= '0' && character <= '9'){
+            if (parsed_num > UINT_MAX / 10 - character + '0'){
+                return Invalid_int;
+            }
             parsed_num *= 10;
             parsed_num += character - '0';
         } else{

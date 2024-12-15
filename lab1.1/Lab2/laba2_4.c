@@ -91,19 +91,20 @@ Err evaluatePolynomial(double *output, double x, int degree, ...) {
 
     for (int i = 0; i <= degree; i++) {
         double coefficient = va_arg(coefficients, double);
+        if (result > DBL_MAX / x || result < -DBL_MAX / x) {
+            va_end(coefficients);
+            return Overflow;
+        }
         result *= x;
 
-        if (result > DBL_MAX || result < -DBL_MAX) {
+        if (result > DBL_MAX  - coefficient|| result < -DBL_MAX + coefficient) {
             va_end(coefficients);
             return Overflow;
         }
 
         result += coefficient;
 
-        if (result > DBL_MAX || result < -DBL_MAX) {
-            va_end(coefficients);
-            return Overflow;
-        }
+
     }
     va_end(coefficients);
     *output = result;
@@ -154,8 +155,17 @@ bool isKaprekarNumber(int number, int base, Err *status) {
 
     int length = strlen(squareStr);
     for (int i = 1; i < length; i++) {
-        int leftPart = parseFromBase(squareStr, base);
-        int rightPart = parseFromBase(squareStr + i, base);
+        char leftPartStr[65], rightPartStr[65];
+
+        // Разделяем строку на левую и правую части
+        strncpy(leftPartStr, squareStr, i);
+        leftPartStr[i] = '\0';  // Завершаем строку
+        strcpy(rightPartStr, squareStr + i);
+
+        int leftPart = parseFromBase(leftPartStr, base);
+        int rightPart = parseFromBase(rightPartStr, base);
+
+        if (leftPart < 0 || rightPart < 0) continue;  // Пропускаем некорректные разбиения
 
         if (rightPart > 0 && leftPart + rightPart == number) {
             return true;
@@ -199,16 +209,44 @@ bool *findKaprekarNumbers(Err *status, int base, int count, ...) {
 
 // Главная функция
 int main() {
-    double polynomialResult;
-    Err resultCode = evaluatePolynomial(&polynomialResult, 2.0, 4, 1.0, 1.0, 1.0, 1.0, 1.0);
-    if (resultCode != Normal) {
-        reportError(resultCode);
-        return resultCode;
-    }
-    printf("Polynomial result: %lf\n", polynomialResult);
+    // Часть 1. Проверка выпуклости многоугольника
+    printf("=== Проверка выпуклости многоугольника ===\n");
+    bool isConvex = isPolygonConvex(6,
+                                    0.0, 0.0,
+                                    2.0, 0.0,
+                                    3.0, 2.0,
+                                    2.0, 4.0,
+                                    0.0, 4.0,
+                                    -1.0, 2.0
+    );
+    printf("Многоугольник %s выпуклый.\n\n", isConvex ? "" : "не");
 
-    bool isConvex = isPolygonConvex(6, 1.0, 2.0, 2.0, 4.0, 4.0, 4.0, 5.0, 2.0, 3.0, 1.0, 3.0, 2.0);
-    printf("The polygon is %s\n", isConvex ? "convex" : "not convex");
+    // Часть 2. Вычисление значения многочлена
+    printf("=== Вычисление значения многочлена ===\n");
+    double polynomialResult;
+    Err polynomialStatus = evaluatePolynomial(&polynomialResult, 2.0, 4, 1.0, 1.0, 1.0, 1.0, 1.0);
+    if (polynomialStatus == Normal) {
+        printf("Результат многочлена при x=2.0: %lf\n\n", polynomialResult);
+    } else {
+        reportError(polynomialStatus);
+        return polynomialStatus;
+    }
+
+    // Часть 3. Поиск чисел Капрекара
+    printf("=== Проверка чисел Капрекара ===\n");
+    Err kaprekarStatus;
+    bool *kaprekarResults = findKaprekarNumbers(&kaprekarStatus, 10, 4, "1", "45", "10", "297");
+    if (kaprekarStatus == Normal) {
+        const char *numbers[] = {"1", "45", "10", "297"};
+        for (int i = 0; i < 4; i++) {
+            printf("Число %s %s является числом Капрекара.\n",
+                   numbers[i], kaprekarResults[i] ? "" : "не");
+        }
+        free(kaprekarResults);
+    } else {
+        reportError(kaprekarStatus);
+        return kaprekarStatus;
+    }
 
     return 0;
 }
