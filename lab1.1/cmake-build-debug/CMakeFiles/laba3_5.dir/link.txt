@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_POSIX_C_SOURCE=200809L -g CMakeFiles/laba3_5.dir/Lab3/lab5/laba3_5.c.o -o laba3_5 

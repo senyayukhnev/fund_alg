@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_POSIX_C_SOURCE=200809L -g CMakeFiles/laba2_4.dir/Lab2/laba2_4.c.o -o laba2_4 
