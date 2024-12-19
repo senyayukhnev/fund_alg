@@ -1,13 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/Users/senya/CLionProjects/lab1.1 -B /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_STANDARD=20 -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/Users/senya/CLionProjects/lab1.1 -B /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug
 -- Configuring done (0.1s)
-CMake Error at CMakeLists.txt:30 (add_executable):
-  Cannot find source file:
-
-    Lab2/laba2_3.c
-
-
-CMake Error at CMakeLists.txt:30 (add_executable):
-  No SOURCES given to target: laba3
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done (4.8s)
+-- Build files have been written to: /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug

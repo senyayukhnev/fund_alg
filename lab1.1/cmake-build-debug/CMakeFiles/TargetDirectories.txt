@@ -26,5 +26,7 @@
 /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba5_4.dir
 /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba5_3.dir
 /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/lab5_6.dir
+/mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba2_9.dir
+/mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/laba5_7.dir
 /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/senya/CLionProjects/lab1.1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
