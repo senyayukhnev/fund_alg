@@ -153,7 +153,8 @@ errs convert(double** answer, int base, int count, ...){
 
 int main(){
     double* answer;
-    errs status = convert(&answer, 16, 7, 0.125, 0.88, 0.34593, 0.99999999, 0.81731, 0.0008, 0.0000000000000000001);
+    errs status = convert(&answer, 25, 1, 0.08);
+    //errs status = convert(&answer, 16, 7, 0.125, 0.88, 0.34593, 0.99999999, 0.81731, 0.0008, 0.0000000000000000001);
     if (status != SUCCESS){
         switch (status){
             case MALLOC_ERR:

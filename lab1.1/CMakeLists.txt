@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.28.3)
 project(lab1_1 C CXX)
 
 set(CMAKE_C_STANDARD 11)
+#set(CMAKE_C_FLAGS "-lm")
 
 add_executable(laba1.c
         Lab1/laba1.c
@@ -43,3 +44,9 @@ add_executable(laba5_3 Lab5/laba5_3.cpp)
 add_executable(lab5_6 Lab5/lab5_6.cpp)
 add_executable(laba2_9 Lab2/laba2_9.c)
 add_executable(laba5_7 Lab5/laba5_7.cpp)
+add_executable(concat Zachet/Concat.c)
+add_executable(fprintf Zachet/fprintf.c)
+add_executable(substr Zachet/substr.c)
+add_executable(sort_by_predicates Zachet/sort_by_predicates.c)
+add_executable(Lexem_count Zachet/Lexem_count.c
+        Zachet/Lexem_count.c)

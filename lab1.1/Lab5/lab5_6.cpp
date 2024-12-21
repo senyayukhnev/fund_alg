@@ -114,7 +114,6 @@ public:
     void reserve(size_t num) {
         if (num > v_capacity){
             double* new_data = new double[num];
-            std::memset(new_data, 0, num * sizeof(double));
             std::memcpy(new_data, v_data, v_size * sizeof(double));
             delete[] v_data;
             v_capacity = num;
@@ -353,3 +352,4 @@ int main(){
 
     return 0;
 }
+

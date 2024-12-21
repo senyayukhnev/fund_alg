@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/lab5_6.dir/Lab5/lab5_6.cpp.o -o lab5_6 

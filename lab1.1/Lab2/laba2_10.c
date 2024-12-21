@@ -62,16 +62,18 @@ ResultCode decompose(double tolerance, double center, double *out_terms, int deg
 }
 
 int main() {
-    int degree = 2;
+    int degree = 4;
+    //int degree = 2;
     double tolerance = 1e-6;
-    double center = 1.0;
+    double center = 3.0;
+    //double center = 1.0;
     double* terms = malloc((degree+1) * sizeof(double));
     if(!terms) {
         reportError(Memory_allocate_err);
         return Memory_allocate_err;
     }
-
-    ResultCode code = decompose(tolerance, center, terms, degree, 2.0, 3.0, 4.0);
+    //ResultCode code = decompose(tolerance, center, terms, degree, 2.0, 3.0, 4.0);
+    ResultCode code = decompose(tolerance, center, terms, degree, -2.0, 1.0, -3.0, 0.0, 1.0);
     if (code != Normal) {
         reportError(code);
         return code;

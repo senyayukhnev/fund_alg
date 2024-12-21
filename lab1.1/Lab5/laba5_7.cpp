@@ -221,7 +221,7 @@ int main(){
         std::cout << "Total fee: " << ware.calculateTotalStorageFee() << "\n";
 
         // std::cout << "\nSearching for Perishable products:\n";
-        // ware.findProductsByCategory("Perishable");
+        ware.findProductsByCategory("Perishable");
         int thresholdDate = 10;
         auto expiringProducts = ware.getExpiringProducts(thresholdDate);
 
