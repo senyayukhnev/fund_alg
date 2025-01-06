@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+C_FLAGS =  -D_POSIX_C_SOURCE=200809L -D_POSIX_C_SOURCE=200809L -g -std=gnu11 -fdiagnostics-color=always
 

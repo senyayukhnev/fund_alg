@@ -143,43 +143,69 @@ posix_ipc-example-server.c/fast:
 .PHONY : posix_ipc-example-server.c/fast
 
 #=============================================================================
-# Target rules for targets named server_lab
+# Target rules for targets named child1_2
 
 # Build rule for target.
-server_lab: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server_lab
-.PHONY : server_lab
+child1_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 child1_2
+.PHONY : child1_2
 
 # fast build rule for target.
-server_lab/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_lab.dir/build.make CMakeFiles/server_lab.dir/build
-.PHONY : server_lab/fast
+child1_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child1_2.dir/build.make CMakeFiles/child1_2.dir/build
+.PHONY : child1_2/fast
 
 #=============================================================================
-# Target rules for targets named filter_str
+# Target rules for targets named parent
 
 # Build rule for target.
-filter_str: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 filter_str
-.PHONY : filter_str
+parent: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parent
+.PHONY : parent
 
 # fast build rule for target.
-filter_str/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/build
-.PHONY : filter_str/fast
+parent/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent.dir/build.make CMakeFiles/parent.dir/build
+.PHONY : parent/fast
 
 #=============================================================================
-# Target rules for targets named child2
+# Target rules for targets named parent_3
 
 # Build rule for target.
-child2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 child2
-.PHONY : child2
+parent_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parent_3
+.PHONY : parent_3
 
 # fast build rule for target.
-child2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/build
-.PHONY : child2/fast
+parent_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent_3.dir/build.make CMakeFiles/parent_3.dir/build
+.PHONY : parent_3/fast
+
+#=============================================================================
+# Target rules for targets named child3_2
+
+# Build rule for target.
+child3_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 child3_2
+.PHONY : child3_2
+
+# fast build rule for target.
+child3_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child3_2.dir/build.make CMakeFiles/child3_2.dir/build
+.PHONY : child3_2/fast
+
+#=============================================================================
+# Target rules for targets named lab2
+
+# Build rule for target.
+lab2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab2
+.PHONY : lab2
+
+# fast build rule for target.
+lab2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/build
+.PHONY : lab2/fast
 
 example/posix_ipc-example-client.o: example/posix_ipc-example-client.c.o
 .PHONY : example/posix_ipc-example-client.o
@@ -234,7 +260,7 @@ lab1/child1.o: lab1/child1.c.o
 
 # target to build an object file
 lab1/child1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_lab.dir/build.make CMakeFiles/server_lab.dir/lab1/child1.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child1_2.dir/build.make CMakeFiles/child1_2.dir/lab1/child1.c.o
 .PHONY : lab1/child1.c.o
 
 lab1/child1.i: lab1/child1.c.i
@@ -242,7 +268,7 @@ lab1/child1.i: lab1/child1.c.i
 
 # target to preprocess a source file
 lab1/child1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_lab.dir/build.make CMakeFiles/server_lab.dir/lab1/child1.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child1_2.dir/build.make CMakeFiles/child1_2.dir/lab1/child1.c.i
 .PHONY : lab1/child1.c.i
 
 lab1/child1.s: lab1/child1.c.s
@@ -250,39 +276,15 @@ lab1/child1.s: lab1/child1.c.s
 
 # target to generate assembly for a file
 lab1/child1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_lab.dir/build.make CMakeFiles/server_lab.dir/lab1/child1.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child1_2.dir/build.make CMakeFiles/child1_2.dir/lab1/child1.c.s
 .PHONY : lab1/child1.c.s
-
-lab1/child2.o: lab1/child2.c.o
-.PHONY : lab1/child2.o
-
-# target to build an object file
-lab1/child2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/lab1/child2.c.o
-.PHONY : lab1/child2.c.o
-
-lab1/child2.i: lab1/child2.c.i
-.PHONY : lab1/child2.i
-
-# target to preprocess a source file
-lab1/child2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/lab1/child2.c.i
-.PHONY : lab1/child2.c.i
-
-lab1/child2.s: lab1/child2.c.s
-.PHONY : lab1/child2.s
-
-# target to generate assembly for a file
-lab1/child2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/child2.dir/build.make CMakeFiles/child2.dir/lab1/child2.c.s
-.PHONY : lab1/child2.c.s
 
 lab1/parent.o: lab1/parent.c.o
 .PHONY : lab1/parent.o
 
 # target to build an object file
 lab1/parent.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/lab1/parent.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent.dir/build.make CMakeFiles/parent.dir/lab1/parent.c.o
 .PHONY : lab1/parent.c.o
 
 lab1/parent.i: lab1/parent.c.i
@@ -290,7 +292,7 @@ lab1/parent.i: lab1/parent.c.i
 
 # target to preprocess a source file
 lab1/parent.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/lab1/parent.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent.dir/build.make CMakeFiles/parent.dir/lab1/parent.c.i
 .PHONY : lab1/parent.c.i
 
 lab1/parent.s: lab1/parent.c.s
@@ -298,8 +300,80 @@ lab1/parent.s: lab1/parent.c.s
 
 # target to generate assembly for a file
 lab1/parent.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter_str.dir/build.make CMakeFiles/filter_str.dir/lab1/parent.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent.dir/build.make CMakeFiles/parent.dir/lab1/parent.c.s
 .PHONY : lab1/parent.c.s
+
+lab2/lab2.o: lab2/lab2.c.o
+.PHONY : lab2/lab2.o
+
+# target to build an object file
+lab2/lab2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2/lab2.c.o
+.PHONY : lab2/lab2.c.o
+
+lab2/lab2.i: lab2/lab2.c.i
+.PHONY : lab2/lab2.i
+
+# target to preprocess a source file
+lab2/lab2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2/lab2.c.i
+.PHONY : lab2/lab2.c.i
+
+lab2/lab2.s: lab2/lab2.c.s
+.PHONY : lab2/lab2.s
+
+# target to generate assembly for a file
+lab2/lab2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab2.dir/build.make CMakeFiles/lab2.dir/lab2/lab2.c.s
+.PHONY : lab2/lab2.c.s
+
+lab3/child.o: lab3/child.c.o
+.PHONY : lab3/child.o
+
+# target to build an object file
+lab3/child.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child3_2.dir/build.make CMakeFiles/child3_2.dir/lab3/child.c.o
+.PHONY : lab3/child.c.o
+
+lab3/child.i: lab3/child.c.i
+.PHONY : lab3/child.i
+
+# target to preprocess a source file
+lab3/child.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child3_2.dir/build.make CMakeFiles/child3_2.dir/lab3/child.c.i
+.PHONY : lab3/child.c.i
+
+lab3/child.s: lab3/child.c.s
+.PHONY : lab3/child.s
+
+# target to generate assembly for a file
+lab3/child.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/child3_2.dir/build.make CMakeFiles/child3_2.dir/lab3/child.c.s
+.PHONY : lab3/child.c.s
+
+lab3/parent_3.o: lab3/parent_3.c.o
+.PHONY : lab3/parent_3.o
+
+# target to build an object file
+lab3/parent_3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent_3.dir/build.make CMakeFiles/parent_3.dir/lab3/parent_3.c.o
+.PHONY : lab3/parent_3.c.o
+
+lab3/parent_3.i: lab3/parent_3.c.i
+.PHONY : lab3/parent_3.i
+
+# target to preprocess a source file
+lab3/parent_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent_3.dir/build.make CMakeFiles/parent_3.dir/lab3/parent_3.c.i
+.PHONY : lab3/parent_3.c.i
+
+lab3/parent_3.s: lab3/parent_3.c.s
+.PHONY : lab3/parent_3.s
+
+# target to generate assembly for a file
+lab3/parent_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parent_3.dir/build.make CMakeFiles/parent_3.dir/lab3/parent_3.c.s
+.PHONY : lab3/parent_3.c.s
 
 # Help Target
 help:
@@ -310,10 +384,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OC_lab"
-	@echo "... child2"
-	@echo "... filter_str"
+	@echo "... child1_2"
+	@echo "... child3_2"
+	@echo "... lab2"
+	@echo "... parent"
+	@echo "... parent_3"
 	@echo "... posix_ipc-example-server.c"
-	@echo "... server_lab"
 	@echo "... example/posix_ipc-example-client.o"
 	@echo "... example/posix_ipc-example-client.i"
 	@echo "... example/posix_ipc-example-client.s"
@@ -323,12 +399,18 @@ help:
 	@echo "... lab1/child1.o"
 	@echo "... lab1/child1.i"
 	@echo "... lab1/child1.s"
-	@echo "... lab1/child2.o"
-	@echo "... lab1/child2.i"
-	@echo "... lab1/child2.s"
 	@echo "... lab1/parent.o"
 	@echo "... lab1/parent.i"
 	@echo "... lab1/parent.s"
+	@echo "... lab2/lab2.o"
+	@echo "... lab2/lab2.i"
+	@echo "... lab2/lab2.s"
+	@echo "... lab3/child.o"
+	@echo "... lab3/child.i"
+	@echo "... lab3/child.s"
+	@echo "... lab3/parent_3.o"
+	@echo "... lab3/parent_3.i"
+	@echo "... lab3/parent_3.s"
 .PHONY : help
 
 
