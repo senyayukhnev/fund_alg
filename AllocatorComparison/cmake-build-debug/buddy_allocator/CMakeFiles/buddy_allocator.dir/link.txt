@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libbuddy_allocator.so -o libbuddy_allocator.so CMakeFiles/buddy_allocator.dir/buddy_allocator.c.o 

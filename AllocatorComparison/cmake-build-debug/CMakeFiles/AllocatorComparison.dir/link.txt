@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/AllocatorComparison.dir/main.c.o -o AllocatorComparison 

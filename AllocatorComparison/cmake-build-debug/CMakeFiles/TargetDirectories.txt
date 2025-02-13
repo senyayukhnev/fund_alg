@@ -1,0 +1,9 @@
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/CMakeFiles/main_allocator_loader.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/freelist_allocator/CMakeFiles/freelist_allocator.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/freelist_allocator/CMakeFiles/edit_cache.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/freelist_allocator/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/buddy_allocator/CMakeFiles/buddy_allocator.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/buddy_allocator/CMakeFiles/edit_cache.dir
+/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug/buddy_allocator/CMakeFiles/rebuild_cache.dir

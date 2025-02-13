@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libfreelist_allocator.so -o ../lib/libfreelist_allocator.so CMakeFiles/freelist_allocator.dir/freelist_allocator.c.o 

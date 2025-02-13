@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_allocator.dir/test_allocator.c.o -o test_allocator 

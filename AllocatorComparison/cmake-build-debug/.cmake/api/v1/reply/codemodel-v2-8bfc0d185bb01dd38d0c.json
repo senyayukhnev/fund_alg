@@ -1,0 +1,138 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "freelist_allocator",
+					"jsonFile" : "directory-freelist_allocator-Debug-ea0f15a63f1499ca159e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "freelist_allocator",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "buddy_allocator",
+					"jsonFile" : "directory-buddy_allocator-Debug-584cd1be359466a6ca58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "buddy_allocator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AllocatorComparison",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "freelist_allocator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "buddy_allocator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "buddy_allocator::@b60054659fbf8e675ffe",
+					"jsonFile" : "target-buddy_allocator-Debug-61e0515cfe1908b97f00.json",
+					"name" : "buddy_allocator",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "freelist_allocator::@16b0f0e3739596f4e901",
+					"jsonFile" : "target-freelist_allocator-Debug-b9bfea3669d461a0578e.json",
+					"name" : "freelist_allocator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_allocator_loader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_allocator_loader-Debug-d5e02d0efaabb19a2850.json",
+					"name" : "main_allocator_loader",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/senya/CLionProjects/AllocatorComparison/cmake-build-debug",
+		"source" : "/mnt/c/Users/senya/CLionProjects/AllocatorComparison"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

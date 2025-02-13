@@ -1,0 +1,64 @@
+execve("./main", ["./main", "cmake-build-debug/lib/libfreelis"...], 0x7ffe048b8be8 /* 27 vars */) = 0
+brk(NULL)                               = 0x55dc184a5000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5e86c1f000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=20115, ...}) = 0
+mmap(NULL, 20115, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5e86c1a000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\243\2\0\0\0\0\0"..., 832) = 832
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+fstat(3, {st_mode=S_IFREG|0755, st_size=2125328, ...}) = 0
+pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+mmap(NULL, 2170256, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5e86a08000
+mmap(0x7f5e86a30000, 1605632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f5e86a30000
+mmap(0x7f5e86bb8000, 323584, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b0000) = 0x7f5e86bb8000
+mmap(0x7f5e86c07000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1fe000) = 0x7f5e86c07000
+mmap(0x7f5e86c0d000, 52624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5e86c0d000
+close(3)                                = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5e86a05000
+arch_prctl(ARCH_SET_FS, 0x7f5e86a05740) = 0
+set_tid_address(0x7f5e86a05a10)         = 224149
+set_robust_list(0x7f5e86a05a20, 24)     = 0
+rseq(0x7f5e86a06060, 0x20, 0, 0x53053053) = 0
+mprotect(0x7f5e86c07000, 16384, PROT_READ) = 0
+mprotect(0x55dc028b4000, 4096, PROT_READ) = 0
+mprotect(0x7f5e86c57000, 8192, PROT_READ) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+munmap(0x7f5e86c1a000, 20115)           = 0
+getrandom("\x97\x0c\xaf\x73\xad\x86\xe2\xbb", 8, GRND_NONBLOCK) = 8
+brk(NULL)                               = 0x55dc184a5000
+brk(0x55dc184c6000)                     = 0x55dc184c6000
+openat(AT_FDCWD, "cmake-build-debug/lib/libfreelist_allocator.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0777, st_size=18384, ...}) = 0
+getcwd("/mnt/c/Users/senya/CLionProjects/AllocatorComparison", 128) = 53
+mmap(NULL, 16416, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5e86c1a000
+mmap(0x7f5e86c1b000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f5e86c1b000
+mmap(0x7f5e86c1c000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5e86c1c000
+mmap(0x7f5e86c1d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5e86c1d000
+close(3)                                = 0
+mprotect(0x7f5e86c1d000, 4096, PROT_READ) = 0
+write(1, "Testing allocator...\n", 21)  = 21
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5e86904000
+write(1, "Allocator created successfully.\n", 32) = 32
+write(1, "Test 1: Allocating and freeing m"..., 41) = 41
+write(1, "Small block allocated successful"..., 36) = 36
+write(1, "Small block freed successfully.\n", 32) = 32
+write(1, "Test 2: Allocating larger memory"..., 42) = 42
+write(1, "Medium block allocated successfu"..., 37) = 37
+write(1, "Medium block freed successfully."..., 33) = 33
+write(1, "Test 3: Reallocating memory afte"..., 45) = 45
+write(1, "Block allocated successfully aft"..., 44) = 44
+write(1, "Block freed successfully after r"..., 40) = 40
+write(1, "Test 4: Attempting to allocate t"..., 50) = 50
+write(1, "Attempted allocation failed as e"..., 41) = 41
+write(1, "Test 5: Allocating multiple memo"..., 45) = 45
+write(1, "Multiple blocks allocated succes"..., 40) = 40
+write(1, "Multiple blocks freed successful"..., 36) = 36
+munmap(0x7f5e86904000, 1052672)         = 0
+write(1, "Allocator destroyed successfully"..., 34) = 34
+munmap(0x7f5e86c1a000, 16416)           = 0
+exit_group(0)                           = ?
++++ exited with 0 +++

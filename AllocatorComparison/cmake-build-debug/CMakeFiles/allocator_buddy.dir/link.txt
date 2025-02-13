@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/allocator_buddy.dir/allocator_buddy.c.o -o allocator_buddy 
