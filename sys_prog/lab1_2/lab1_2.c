@@ -5,14 +5,11 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <fcntl.h>
-#include <errno.h>
 
-#define MAX_FILES 100
+
 #define MAX_PATH_LEN 1024
 #define BUFFER_SIZE 4096
 
-// Перечисление возможных ошибок
 typedef enum {
     OK = 0,
     ERR_INVALID_ARGS,
@@ -26,7 +23,7 @@ typedef enum {
     ERR_STRING_NOT_FOUND
 } ErrorCode;
 
-// Функция для вывода статуса ошибки
+
 void print_status(ErrorCode code, const char *additional_info) {
     const char *messages[] = {
             "Success",
@@ -50,7 +47,6 @@ void print_status(ErrorCode code, const char *additional_info) {
     }
 }
 
-// Функция для проверки, является ли строка шестнадцатеричным числом
 int is_hex(const char *str) {
     for (size_t i = 0; i < strlen(str); i++) {
         if (!((str[i] >= '0' && str[i] <= '9') ||
@@ -62,7 +58,6 @@ int is_hex(const char *str) {
     return 1;
 }
 
-// Функция для проверки, является ли строка числом
 int is_number(const char *str) {
     for (size_t i = 0; i < strlen(str); i++) {
         if (str[i] < '0' || str[i] > '9') {
@@ -72,41 +67,40 @@ int is_number(const char *str) {
     return 1;
 }
 
-// Функция для операции xorN
+
 ErrorCode xor_operation(const char *filename, int n) {
     FILE *file = fopen(filename, "rb");
-    if (!file) {
-        return ERR_FILE_OPEN;
-    }
+    if (!file) return ERR_FILE_OPEN;
 
-    size_t block_size = 1 << n; // 2^N байт
-    uint8_t *block = (uint8_t *)calloc(block_size, sizeof(uint8_t));
+    const int block_bits = 1 << n;
+    const int nibbles_in_block = block_bits / 4;
+
+    uint8_t *block = (uint8_t *)calloc(nibbles_in_block, sizeof(uint8_t));
     if (!block) {
         fclose(file);
         return ERR_MEMORY;
     }
 
-    size_t bytes_read;
-    uint8_t buffer[BUFFER_SIZE];
-    size_t total_bytes = 0;
+    uint8_t byte;
+    int bit_counter = 0;
 
-    while ((bytes_read = fread(buffer, 1, BUFFER_SIZE, file))) {
-        for (size_t i = 0; i < bytes_read; i++) {
-            block[total_bytes % block_size] ^= buffer[i];
-            total_bytes++;
-        }
-    }
+    while (fread(&byte, 1, 1, file) == 1) {
+        for (int bit_pos = 7; bit_pos >= 0; bit_pos--) {
+            uint8_t bit = (byte >> bit_pos) & 1;
+            int nibble_idx = (bit_counter % block_bits) / 4;
+            int bit_in_nibble = 3 - ((bit_counter % block_bits) % 4);
 
-    // Дополняем нулями если нужно
-    if (total_bytes % block_size != 0) {
-        for (size_t i = total_bytes % block_size; i < block_size; i++) {
-            block[i] ^= 0x00;
+            if (bit) {
+                block[nibble_idx] ^= (1 << bit_in_nibble);
+            }
+
+            bit_counter++;
         }
     }
 
     printf("XOR result for %s (N=%d): ", filename, n);
-    for (size_t i = 0; i < block_size; i++) {
-        printf("%02x ", block[i]);
+    for (int i = 0; i < nibbles_in_block; i++) {
+        printf("%01x ", block[i]);
     }
     printf("\n");
 
@@ -114,39 +108,61 @@ ErrorCode xor_operation(const char *filename, int n) {
     fclose(file);
     return OK;
 }
-
-// Функция для операции mask
 ErrorCode mask_operation(const char *filename, uint32_t mask) {
     FILE *file = fopen(filename, "rb");
-    if (!file) {
-        return ERR_FILE_OPEN;
-    }
+    if (!file) return ERR_FILE_OPEN;
 
-    uint32_t value;
+    uint32_t buffer;
     size_t count = 0;
-    size_t total_values = 0;
+    size_t total = 0;
+    size_t file_size;
 
-    while (fread(&value, sizeof(uint32_t), 1, file) == 1) {
-        if ((value & mask) == mask) {
+    // Получаем размер файла
+    fseek(file, 0, SEEK_END);
+    file_size = ftell(file);
+    fseek(file, 0, SEEK_SET);
+
+    // Вычисляем сколько полных 4-байтных слов в файле
+    size_t full_words = file_size / 4;
+    size_t remaining_bytes = file_size % 4;
+
+    // Читаем полные 4-байтные слова
+    for (size_t i = 0; i < full_words; i++) {
+        if (fread(&buffer, 4, 1, file) != 1) {
+            fclose(file);
+            return ERR_FILE_OPEN;
+        }
+        if ((buffer & mask) == mask) {
             count++;
         }
-        total_values++;
+        total++;
+    }
+
+    // Читаем оставшиеся байты (если есть)
+    if (remaining_bytes > 0) {
+        buffer = 0;
+        if (fread(&buffer, 1, remaining_bytes, file) != remaining_bytes) {
+            fclose(file);
+            return ERR_FILE_OPEN;
+        }
+        if ((buffer & mask) == mask) {
+            count++;
+        }
+        total++;
     }
 
     printf("File %s: %zu matching values out of %zu (mask: 0x%08x)\n",
-           filename, count, total_values, mask);
+           filename, count, total, mask);
 
     fclose(file);
     return OK;
 }
-
-// Функция для операции copyN
 ErrorCode copy_operation(const char *filename, int n) {
     for (int i = 1; i <= n; i++) {
         pid_t pid = fork();
         if (pid == -1) {
             return ERR_FORK;
-        } else if (pid == 0) { // Дочерний процесс
+        } else if (pid == 0) {
             char new_filename[MAX_PATH_LEN];
             snprintf(new_filename, MAX_PATH_LEN, "%s_%d", filename, i);
 
@@ -178,7 +194,7 @@ ErrorCode copy_operation(const char *filename, int n) {
         }
     }
 
-    // Ожидаем завершения всех дочерних процессов
+
     ErrorCode overall_status = OK;
     for (int i = 1; i <= n; i++) {
         int status;
@@ -200,7 +216,7 @@ ErrorCode copy_operation(const char *filename, int n) {
     return overall_status;
 }
 
-// Функция для операции find
+
 ErrorCode find_operation(const char *filename, const char *search_string) {
     FILE *file = fopen(filename, "r");
     if (!file) {
@@ -237,7 +253,7 @@ int main(int argc, char *argv[]) {
     char *command = argv[argc - 1];
     char *command_arg = NULL;
 
-    // Проверяем, есть ли аргумент у команды
+
     if (strcmp(command, "xor2") != 0 && strcmp(command, "xor3") != 0 &&
         strcmp(command, "xor4") != 0 && strcmp(command, "xor5") != 0 &&
         strcmp(command, "xor6") != 0 && strcmp(command, "copyN") != 0) {
@@ -252,7 +268,7 @@ int main(int argc, char *argv[]) {
 
     ErrorCode status = OK;
 
-    // Обработка команд
+
     if (strncmp(command, "xor", 3) == 0) {
         int n = command[3] - '0';
         if (n < 2 || n > 6) {
@@ -313,7 +329,7 @@ int main(int argc, char *argv[]) {
                 print_status(ERR_FORK, argv[i]);
                 status = ERR_FORK;
                 continue;
-            } else if (pid == 0) { // Дочерний процесс
+            } else if (pid == 0) {
                 ErrorCode child_status = find_operation(argv[i], command_arg);
                 exit(child_status);
             } else {
