@@ -48,4 +48,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lab1_2.dir/DependInfo.cmake"
   "CMakeFiles/server_4.dir/DependInfo.cmake"
   "CMakeFiles/client_4.dir/DependInfo.cmake"
+  "CMakeFiles/server_6.dir/DependInfo.cmake"
+  "CMakeFiles/client_6.dir/DependInfo.cmake"
   )

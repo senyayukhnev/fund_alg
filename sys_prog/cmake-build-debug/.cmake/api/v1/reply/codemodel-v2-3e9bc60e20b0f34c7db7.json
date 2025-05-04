@@ -22,7 +22,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -44,7 +46,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -55,6 +59,13 @@
 					"id" : "client_4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-client_4-Debug-f182301e4a26a23c271c.json",
 					"name" : "client_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_6-Debug-a9bead6cb289abe3f67b.json",
+					"name" : "client_6",
 					"projectIndex" : 0
 				},
 				{
@@ -97,6 +108,13 @@
 					"id" : "server_4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-server_4-Debug-07c96e546dbc9ba93b7d.json",
 					"name" : "server_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server_6-Debug-987e3245200887ee392b.json",
+					"name" : "server_6",
 					"projectIndex" : 0
 				},
 				{

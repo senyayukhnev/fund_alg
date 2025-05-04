@@ -6,5 +6,7 @@
 /mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/lab1_2.dir
 /mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/server_4.dir
 /mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/client_4.dir
+/mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/server_6.dir
+/mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/client_6.dir
 /mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/senya/CLionProjects/sys_prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -220,6 +220,32 @@ client_4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_4.dir/build.make CMakeFiles/client_4.dir/build
 .PHONY : client_4/fast
 
+#=============================================================================
+# Target rules for targets named server_6
+
+# Build rule for target.
+server_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 server_6
+.PHONY : server_6
+
+# fast build rule for target.
+server_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_6.dir/build.make CMakeFiles/server_6.dir/build
+.PHONY : server_6/fast
+
+#=============================================================================
+# Target rules for targets named client_6
+
+# Build rule for target.
+client_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_6
+.PHONY : client_6
+
+# fast build rule for target.
+client_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_6.dir/build.make CMakeFiles/client_6.dir/build
+.PHONY : client_6/fast
+
 lab1_1.o: lab1_1.c.o
 .PHONY : lab1_1.o
 
@@ -367,6 +393,54 @@ lab1_5.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1_5.dir/build.make CMakeFiles/lab1_5.dir/lab1_5.c.s
 .PHONY : lab1_5.c.s
 
+lab1_6/client.o: lab1_6/client.c.o
+.PHONY : lab1_6/client.o
+
+# target to build an object file
+lab1_6/client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_6.dir/build.make CMakeFiles/client_6.dir/lab1_6/client.c.o
+.PHONY : lab1_6/client.c.o
+
+lab1_6/client.i: lab1_6/client.c.i
+.PHONY : lab1_6/client.i
+
+# target to preprocess a source file
+lab1_6/client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_6.dir/build.make CMakeFiles/client_6.dir/lab1_6/client.c.i
+.PHONY : lab1_6/client.c.i
+
+lab1_6/client.s: lab1_6/client.c.s
+.PHONY : lab1_6/client.s
+
+# target to generate assembly for a file
+lab1_6/client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_6.dir/build.make CMakeFiles/client_6.dir/lab1_6/client.c.s
+.PHONY : lab1_6/client.c.s
+
+lab1_6/server.o: lab1_6/server.c.o
+.PHONY : lab1_6/server.o
+
+# target to build an object file
+lab1_6/server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_6.dir/build.make CMakeFiles/server_6.dir/lab1_6/server.c.o
+.PHONY : lab1_6/server.c.o
+
+lab1_6/server.i: lab1_6/server.c.i
+.PHONY : lab1_6/server.i
+
+# target to preprocess a source file
+lab1_6/server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_6.dir/build.make CMakeFiles/server_6.dir/lab1_6/server.c.i
+.PHONY : lab1_6/server.c.i
+
+lab1_6/server.s: lab1_6/server.c.s
+.PHONY : lab1_6/server.s
+
+# target to generate assembly for a file
+lab1_6/server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_6.dir/build.make CMakeFiles/server_6.dir/lab1_6/server.c.s
+.PHONY : lab1_6/server.c.s
+
 lab1_7.o: lab1_7.c.o
 .PHONY : lab1_7.o
 
@@ -400,12 +474,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... client_4"
+	@echo "... client_6"
 	@echo "... lab1_1"
 	@echo "... lab1_2"
 	@echo "... lab1_3"
 	@echo "... lab1_5"
 	@echo "... lab1_7"
 	@echo "... server_4"
+	@echo "... server_6"
 	@echo "... sys_prog"
 	@echo "... lab1_1.o"
 	@echo "... lab1_1.i"
@@ -425,6 +501,12 @@ help:
 	@echo "... lab1_5.o"
 	@echo "... lab1_5.i"
 	@echo "... lab1_5.s"
+	@echo "... lab1_6/client.o"
+	@echo "... lab1_6/client.i"
+	@echo "... lab1_6/client.s"
+	@echo "... lab1_6/server.o"
+	@echo "... lab1_6/server.i"
+	@echo "... lab1_6/server.s"
 	@echo "... lab1_7.o"
 	@echo "... lab1_7.i"
 	@echo "... lab1_7.s"
